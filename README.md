@@ -58,18 +58,21 @@
 
 ## Встановлення
 
-```bash
-git clone https://github.com/<your-username>/gtm-strategy-skills.git
-claude --plugin-dir ./gtm-strategy-skills
+**Спосіб 1 — через Claude Code marketplace (рекомендовано):**
 ```
-
-Після старту:
-
-```
+/plugin marketplace add victor-shulga/gtm-strategy-skills
+/plugin install gtm-strategy@gtm-strategy-skills
 /gtm-strategy:run https://example-agency.com
 ```
+Оновлення: `/plugin marketplace update gtm-strategy-skills`.
 
-Зміни підхоплюються `/reload-plugins` без рестарту. Або скопіюй папку в `~/.claude/skills/`.
+**Спосіб 2 — локально через клон:**
+```bash
+git clone https://github.com/victor-shulga/gtm-strategy-skills.git
+claude --plugin-dir ./gtm-strategy-skills
+/gtm-strategy:run https://example-agency.com
+```
+Зміни підхоплюються `/reload-plugins`. Або скопіюй папку в `~/.claude/skills/`.
 
 ---
 
