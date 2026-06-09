@@ -1,7 +1,7 @@
-# Довідник: GTM Strategist (Maja Voje) — цит-шит для скілів
+# Довідник: GTM-фреймворки — цит-шит для скілів
 
-Конденсат книги «Go-To-Market Strategist» (Maja Voje), змаплений на наші кроки 01-12. Скіли цитують
-розділи звідси. Це збагачує наш флоу перевіреними фреймворками. (Сторінки — внутрішня нумерація книги.)
+Конденсат перевірених GTM-фреймворків, змаплений на наші кроки 01-12. Скіли цитують
+розділи звідси. Це збагачує наш флоу best-practice GTM-моделями.
 
 ---
 
@@ -98,7 +98,7 @@ Meta Ad Library) · mystery shopping · netnography (G2/Clutch/Capterra). Refres
 що дають repeatable business. Спершу «things that don't scale». **CAC = ⅓ LTV.** Moonshots 10-20% бюджету.
 **Demand Capture** (solution-aware шукають: SEM/G2/targeted outreach) vs **Demand Generation** (раніше в
 journey: контент/освіта). Логіка: є попит→capture; нема, але суміжна категорія→capture там; нема зовсім→generate.
-**7 GTM-motions (Roberge+Voje)** — обери реверсом від цілей, ROI у 3-18 міс:
+**7 GTM-motions (Roberge)** — обери реверсом від цілей, ROI у 3-18 міс:
 1. **Inbound** (контент/free tools; SME/mid-market; delayed 3-6 міс; потрібні analytics+CRM).
 2. **Paid** (6 суб: SEM · social · influencers · affiliate · PR · media buying; ~80% verified / ≤20% experiment; LTV не CAC).
 3. **Outbound** (cold email/LI/call; персоналізуй; 8-touch cadence Day1-17; tools Apollo/Lemlist/Instantly).
@@ -137,7 +137,7 @@ Budget: ~10% на експерименти (більше до-PMF); labor 30-70%
 
 ---
 
-## §10 · Канвас-порядок (Voje GTM Power Hour / 1-pager)
+## §10 · Канвас-порядок (GTM 1-pager)
 What we know to be true about target market → Product (what / problem) → PMF cycle → Target Customer →
 Competitive Alternatives → Competitive Edge (UVP) → Pricing & Packaging → **GTM Objective (3-6 міс) + success** →
 Beachhead Strategy → Validation → **GTM Motions + Growth-motion KPIs** → **Stages of GTM (proof: concept →

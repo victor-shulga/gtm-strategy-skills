@@ -9,7 +9,7 @@ argument-hint: "(reads stage, SMF gap, ICP and other artifacts from the client's
 Фінальний крок і **третій чекпоінт**. Звести все у пріоритизований **екшн-план на 30 / 90 / 180 днів**.
 Основа плану: **Стадія + найдешевша SMF-діра + AGA-мапінг** (рішення зафіксоване в архітектурі флоу).
 
-Прочитай `${CLAUDE_PLUGIN_ROOT}/reference/agency-stages.md` (розділи 2, 4, 5, 8). **Voje enrichment** (`${CLAUDE_PLUGIN_ROOT}/reference/gtm-strategist-voje.md` §0,§7,§8):
+Прочитай `${CLAUDE_PLUGIN_ROOT}/reference/agency-stages.md` (розділи 2, 4, 5, 8). **GTM enrichment** (`${CLAUDE_PLUGIN_ROOT}/reference/gtm-frameworks.md` §0,§7,§8):
 proof-мілстоуни (Problem-Solution → PMF → GTM-fit → Scaling; Sean Ellis ≥40%) · NSM + OKR (огляд щомісяця) ·
 **Experimentation Loop** + **Impact × Ease** пріоритизація · 90-day plan. Підтягни з Notion-
 сторінки клієнта: Stage, SMF gap, AGA focus + **усі артефакти кроків 03-11** (03 ринок/ICP/тіри/персона ·
