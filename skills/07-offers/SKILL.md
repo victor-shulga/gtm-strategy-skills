@@ -12,6 +12,9 @@ argument-hint: "(reads market/tiers/persona + VP + pains from steps 3-6 in Notio
 Вхід — 03 (ринок/тіри/персона), 06 (dream outcome, pains, benefits, why-now), 05 (competitor whitespace),
 04 (sizing — для sanity цін).
 Прочитай `${CLAUDE_PLUGIN_ROOT}/reference/agency-stages.md`.
+**Voje enrichment** (`${CLAUDE_PLUGIN_ROOT}/reference/gtm-strategist-voje.md` §5 — pricing): **value metric** ·
+**WTP** (Van Westendorp / Gabor-Granger / presale — не питай «скільки заплатили б») · конкуренти **±10-30%** ·
+**sweet spot: ~70% купують** (ок втратити 20-30%) · 6 моделей · packaging 2-5 тірів · revise кожні 3-6 міс.
 
 ## Реюз
 `offer-factory` (генерація offer-bets ICP×pain×mechanism) · `offer-ladder` (вертикальна драбина) ·

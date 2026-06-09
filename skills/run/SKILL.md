@@ -13,7 +13,9 @@ disable-model-invocation: false
 **Вхід:** `$ARGUMENTS` = URL сайту агенції. Якщо URL не передано — спитай його (одне питання) і стоп.
 
 Прочитай перед стартом: `${CLAUDE_PLUGIN_ROOT}/reference/agency-stages.md` та
-`${CLAUDE_PLUGIN_ROOT}/reference/notion-schema.md`.
+`${CLAUDE_PLUGIN_ROOT}/reference/notion-schema.md`. Кроки 03-12 також спираються на
+`${CLAUDE_PLUGIN_ROOT}/reference/gtm-strategist-voje.md` (фреймворки Maja Voje: ECP/beachhead,
+value-prop canvas, 4 pricing inputs, 7 GTM-motions, proof-мілстоуни, experimentation loop).
 
 ---
 
