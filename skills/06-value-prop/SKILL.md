@@ -13,6 +13,9 @@ Snapshot). Cold audit → гіпотеза; **proof-числа порожні н
 Вхід — 01 (verbatim/болі), 03 (ринок/персона/JTBD), **05 (competitor/whitespace — positioning будуй
 ВІД нього, Dunford)**, за наявності 07 (offers). Формат — VP-канвас Viktor'а
 (Herubel-style). Прочитай `${CLAUDE_PLUGIN_ROOT}/reference/agency-stages.md`.
+**Voje enrichment** (`${CLAUDE_PLUGIN_ROOT}/reference/gtm-strategist-voje.md` §4): Value Prop Canvas
+(JTBD/Pains/Gains → mission-critical relievers, ≥10 інтерв'ю) · UVP = **diff value** · **Andrej 8-step
+positioning** + USP-тест (valued AND unique) · A/B-тест позиції (≥50 конв., тиждень) · Cialdini.
 
 ## Реюз
 `value-prop-lister` · `offer-definer` · `deep-company-analyser` (customer language) · `anticopywriting-ai`

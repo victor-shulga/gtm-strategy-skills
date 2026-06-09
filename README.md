@@ -51,6 +51,9 @@
 
 - `reference/agency-stages.md` — діагностика стадій, SMF, матриці матеріалів/доків, AGA-мапінг.
 - `reference/notion-schema.md` — структура Notion-воркспейсу та схема сторінок.
+- `reference/gtm-strategist-voje.md` — фреймворки з книги «GTM Strategist» (Maja Voje), змаплені на кроки:
+  ECP/beachhead, value-prop canvas, 8-step positioning, 4 pricing inputs, 7 GTM-motions, proof-мілстоуни,
+  experimentation loop, anti-patterns.
 
 Скіли звертаються до них через `${CLAUDE_PLUGIN_ROOT}/reference/...`.
 

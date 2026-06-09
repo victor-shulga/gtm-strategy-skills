@@ -11,6 +11,10 @@ argument-hint: "(reads Snapshot + Stage from the client's Notion page)"
 Cold audit → це гіпотеза з offer + мови клієнта + тех-сигналу, яку **підтверджуємо на discovery**.
 
 Прочитай `${CLAUDE_PLUGIN_ROOT}/reference/agency-stages.md`. Вхід — Snapshot (01) + Stage (02) з Notion.
+**Voje enrichment** (`${CLAUDE_PLUGIN_ROOT}/reference/gtm-strategist-voje.md` §1-2): **ECP-first** (кого
+монетизуємо за 1-2 кв) vs ICP · beachhead-критерії (winnable ≤18 міс, ~100 компаній, 30-50%, painkiller) ·
+**Market-Problem Map** (Pain × Ease-of-sale × Ease-of-impl) · GTM-сегментація (JTBD/pains/alternatives/values) ·
+**DMU** + **Anti-persona** · validation confidence-ladder (interviews→presale).
 Формат полів персон — за ICP-шаблоном Viktor'а (Ideal Company / DM / User / Anti-ICP).
 (Цей крок поглинув колишній `04-personas`: персони — рівень 3 тут.)
 

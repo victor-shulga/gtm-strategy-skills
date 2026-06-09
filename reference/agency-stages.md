@@ -84,6 +84,17 @@
 
 Стадія 0/1 → M1 + M2–3. Стадія 2/3 → M4 + M5. Стадія 4 → AGA не підходить (Fractional CRO / C-level).
 
+### GTM-maturity (Maja Voje) ↔ наші стадії
+| Voje GTM-fit | Наша | Proof |
+|--------------|------|-------|
+| Problem-Solution fit | 0 | ринок підтверджує проблему + активно шукає рішення |
+| Product-Market fit | 1-2 | retention-крива плоска · **Sean Ellis ≥40% «very disappointed»** |
+| Go-to-Market fit | 2-3 | валідований WTP · **CAC < ⅓ LTV** · ≥1 масштабований GTM-motion |
+| Scaling | 3-4 | нові PMF / сегменти / продукти |
+
+Adoption curve (вигравай ліво): Innovators 2.5% → Early Adopters 13.5% → [chasm] → Early Majority 34%.
+Деталі — `gtm-strategist-voje.md`.
+
 ---
 
 ## 5. Зведена матриця стадій (офери × канали × команда × бюджет)
