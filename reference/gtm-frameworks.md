@@ -59,7 +59,7 @@ Meta Ad Library) · mystery shopping · netnography (G2/Clutch/Capterra). Refres
 
 ---
 
-## §4 · Value Prop / Positioning (наш крок 06)
+## §4 · Positioning / Value Prop (positioning — крок 06, VP — крок 07)
 - **UVP ≠ VP:** UVP = **диференційована** вигода («чому МИ, а не альтернативи»). Дюнфорд: value сам не
   виграє — diff value виграє.
 - **Value Proposition Canvas** (потрібно ≥10 інтерв'ю): Customer Profile (JTBD/Pains/Gains) → Value Map
@@ -75,7 +75,7 @@ Meta Ad Library) · mystery shopping · netnography (G2/Clutch/Capterra). Refres
 
 ---
 
-## §5 · Pricing & Packaging (наш крок 07 — важливо)
+## §5 · Pricing & Packaging (наш крок 08 — важливо)
 **+1% монетизації → +12-16% revenue (4× ефект acquisition).** Revise кожні **3-6 міс**.
 **4 інпути ціни:**
 1. **Value metric** (одиниця, що росте з цінністю): зрозуміла · аліґнена з value · росте з usage
@@ -93,7 +93,7 @@ Meta Ad Library) · mystery shopping · netnography (G2/Clutch/Capterra). Refres
 
 ---
 
-## §6 · GTM Motions / Channels / Growth (наш крок 10)
+## §6 · GTM Motions / Channels / Growth (наш крок 11)
 «Погана дистрибуція — №1 причина провалу» (Weinberg). **Bullseye:** brainstorm → test → **2-3 канали**,
 що дають repeatable business. Спершу «things that don't scale». **CAC = ⅓ LTV.** Moonshots 10-20% бюджету.
 **Demand Capture** (solution-aware шукають: SEM/G2/targeted outreach) vs **Demand Generation** (раніше в
@@ -111,7 +111,7 @@ collaboration · viral · distribution. На кожен loop: яка дія / х
 
 ---
 
-## §7 · Goals / Metrics (наші кроки 02/12)
+## §7 · Goals / Metrics (наші кроки 02/13)
 - **North Star Metric:** веде до revenue (не = revenue) · відбиває value · міряє прогрес. 3 ігри: Attention/
   Transaction/Productivity. Leading, не vanity.
 - **OKRs** (огляд щомісяця в GTM): Objective (без цифр) + 3-5 KR; scoring 0-1 (Commitment→1.0, Aspirational
@@ -120,7 +120,7 @@ collaboration · viral · distribution. На кожен loop: яка дія / х
 
 ---
 
-## §8 · Experimentation + System (наші кроки 10/12)
+## §8 · Experimentation + System (наші кроки 11/13)
 **Experimentation Loop** навколо 1-5 цілей. Inception (низька впевненість: спостереження/інтерв'ю/surveys)
 → Experimentation (stat-sig, 5 кроків: hypothesis+критерій → launch → analyze → map insights → implement+лог).
 50-90% сміливих експериментів падають — усе одно вчишся (≥1 з 10 виграє). **Prioritization: Impact × Ease.**

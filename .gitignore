@@ -10,3 +10,6 @@ gtm-output/
 .idea/
 *.log
 .env
+
+# local design doc (not for public repo)
+POSITIONING-SKILL-SPEC.md
