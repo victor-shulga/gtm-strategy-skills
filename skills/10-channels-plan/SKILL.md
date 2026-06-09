@@ -12,7 +12,7 @@ buyer journey**. Recommendations only (не запускаємо канали т
 Вхід — 02 (стадія + SMF), 03 (персона: preferred channels / де тусуються), 08 (шлях клієнта: який канал на
 яку стадію), 09 (чи готові матеріали під канал). Прочитай `${CLAUDE_PLUGIN_ROOT}/reference/agency-stages.md`
 §1 (канали за стадіями), §3 (порядок Стадії 1: **Distribution — ОСТАННЄ**).
-**Voje enrichment** (`${CLAUDE_PLUGIN_ROOT}/reference/gtm-strategist-voje.md` §6): **7 GTM-motions**
+**GTM enrichment** (`${CLAUDE_PLUGIN_ROOT}/reference/gtm-frameworks.md` §6): **7 GTM-motions**
 (Inbound/Paid/Outbound/ABM/Community/Partners/PLG) · **Bullseye** (2-3 канали) · demand-capture vs
 demand-generation · **CAC = ⅓ LTV** · ABM account-math · **Growth Loops** (5 архетипів).
 

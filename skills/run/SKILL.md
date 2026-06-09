@@ -14,7 +14,7 @@ disable-model-invocation: false
 
 Прочитай перед стартом: `${CLAUDE_PLUGIN_ROOT}/reference/agency-stages.md` та
 `${CLAUDE_PLUGIN_ROOT}/reference/notion-schema.md`. Кроки 03-12 також спираються на
-`${CLAUDE_PLUGIN_ROOT}/reference/gtm-strategist-voje.md` (фреймворки Maja Voje: ECP/beachhead,
+`${CLAUDE_PLUGIN_ROOT}/reference/gtm-frameworks.md` (GTM-фреймворки: ECP/beachhead,
 value-prop canvas, 4 pricing inputs, 7 GTM-motions, proof-мілстоуни, experimentation loop).
 
 ---
