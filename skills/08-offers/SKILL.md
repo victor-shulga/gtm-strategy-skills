@@ -1,16 +1,16 @@
 ---
-name: 07-offers
-description: Step 7 of the GTM flow. Turn the chosen market, ICP, tiers and VP into concrete offers — an offer ladder (hook/free -> entry/paid pilot -> core -> continuity) plus Grand-Slam offer cards (dream outcome, mechanism/what's included, measurable outcome, speed, effort removed, proof, price structure, risk reversal, CTA) and a lightweight validation plan. Stage-adaptive — at stage 0-1 it produces 1 core plus 1 entry offer. Use when the user asks офери, offer, що продавати, packaging, pricing, offer ladder, grand slam, use cases. Writes to Notion in Ukrainian.
-argument-hint: "(reads market/tiers/persona + VP + pains from steps 3-6 in Notion)"
+name: 08-offers
+description: Step 8 of the GTM flow. Turn the chosen market, ICP, tiers and VP into concrete offers — an offer ladder (hook/free -> entry/paid pilot -> core -> continuity) plus Grand-Slam offer cards (dream outcome, mechanism/what's included, measurable outcome, speed, effort removed, proof, price structure, risk reversal, CTA) and a lightweight validation plan. Stage-adaptive — at stage 0-1 it produces 1 core plus 1 entry offer. Use when the user asks офери, offer, що продавати, packaging, pricing, offer ladder, grand slam, use cases. Writes to Notion in Ukrainian.
+argument-hint: "(reads market/tiers/persona + positioning + VP + pains from steps 3-7 in Notion)"
 ---
 
-# 07 · Offers
+# 08 · Offers
 
-Сьомий крок. Перетворити ринок/ICP/тіри (03) + VP (06) на **конкретні офери, які можна продавати й
-тестувати**. Cold audit → офери це гіпотези; proof/ціни — діапазони з позначкою «валідувати». Без гейту.
+Восьмий крок. Перетворити ринок/ICP/тіри (03) + позиціонування (06) + VP (07) на **конкретні офери, які
+можна продавати й тестувати**. Cold audit → офери це гіпотези; proof/ціни — діапазони з позначкою «валідувати». Без гейту.
 
-Вхід — 03 (ринок/тіри/персона), 06 (dream outcome, pains, benefits, why-now), 05 (competitor whitespace),
-04 (sizing — для sanity цін).
+Вхід — 03 (ринок/тіри/персона), 06 (анкер/ворог/категорія), 07 (dream outcome, pains, benefits, why-now),
+05 (competitor whitespace), 04 (sizing — для sanity цін).
 Прочитай `${CLAUDE_PLUGIN_ROOT}/reference/agency-stages.md`.
 **GTM enrichment** (`${CLAUDE_PLUGIN_ROOT}/reference/gtm-frameworks.md` §5 — pricing): **value metric** ·
 **WTP** (Van Westendorp / Gabor-Granger / presale — не питай «скільки заплатили б») · конкуренти **±10-30%** ·
@@ -57,7 +57,7 @@ sentiment + реакцію на ціну; ціль ≥70% «розглянули
 - Entry-оффер мусить **сам доводити ROI** (на Стадії 0 це двигун перших кейсів).
 
 ## Вихід (Notion)
-Під-сторінка **«06 · Offers»**: offer ladder (таблиця) · 1-2 offer-картки · use case · validation plan ·
+Під-сторінка **«08 · Offers»**: offer ladder (таблиця) · 1-2 offer-картки · use case · validation plan ·
 блок «Джерела / припущення». Українською; назви оферів — мовою ринку (часто EN).
 
 ## Definition of Done

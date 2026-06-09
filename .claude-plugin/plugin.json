@@ -1,7 +1,7 @@
 {
   "name": "gtm-strategy",
-  "version": "0.2.0",
-  "description": "Cold-audit GTM strategy flow for IT agencies. From a website URL: diagnose agency stage, then build ICP, value prop, offers, competitor + gap analysis, buyer journey, and recommend marketing materials / lead-gen channels / internal docs — ending in a 30-90-180 action plan. Stage-adaptive, checkpointed, outputs to Notion in Ukrainian.",
+  "version": "0.3.0",
+  "description": "Cold-audit GTM strategy flow for IT agencies. From a website URL: diagnose agency stage, then build ICP, competitor + gap analysis, stage-gated positioning, value prop, offers, buyer journey, and recommend marketing materials / lead-gen channels / internal docs — ending in a 30-90-180 action plan. Stage-adaptive, checkpointed, outputs to Notion in Ukrainian.",
   "author": {
     "name": "Viktor Shulha",
     "url": "https://github.com/b2b-global"

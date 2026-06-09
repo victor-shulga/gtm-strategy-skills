@@ -2,7 +2,7 @@
 
 Джерело: «Шлях ІТ-агенції $0 → $5M ARR» + «Сетап маркетингових матеріалів» + «Сетап внутрішніх
 документів» (B2B Global, Viktor Shulha). Цей файл — робоча основа для `02-stage-diagnostic`,
-`09-materials-plan`, `10-channels-plan`, `11-docs-plan`, `12-action-plan`.
+`10-materials-plan`, `11-channels-plan`, `12-docs-plan`, `13-action-plan`.
 
 ---
 
@@ -187,5 +187,5 @@ Adoption curve (вигравай ліво): Innovators 2.5% → Early Adopters 1
 - **Undershoot** (відстають): стадія 2–3 без повних кейсів / Sales playbook / Client onboarding;
   стадія 3 без partnership program / Service deck; стадія 4 без industry report / OKR.
 
-**Рецепт рекомендацій (кроки 9–11):** 1–2 вбити/заморозити (overshoot) · 1–2 створити за 30 днів
+**Рецепт рекомендацій (кроки 10–12):** 1–2 вбити/заморозити (overshoot) · 1–2 створити за 30 днів
 (критичний gap) · 1–2 переробити за template. Кожен пункт — owner + дедлайн + бюджет/час.

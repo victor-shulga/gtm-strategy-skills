@@ -1,27 +1,27 @@
 ---
-name: 12-action-plan
+name: 13-action-plan
 description: Final step of the GTM flow and CHECKPOINT 3. Synthesize all prior artifacts into a 30-90-180 day action plan for an IT agency, derived from the diagnosed stage plus the cheapest Sales-Market-Fit gap (L, Cr, $, #) plus the AGA module mapping M1-M5. Produces stage-appropriate task cards with owner, effort, KPI, plus an overshoot kill and undershoot build list. Use when the user asks for екшн-план, 30-90-180, що робити далі, roadmap, or at the end of the GTM flow. Writes to Notion in Ukrainian.
 argument-hint: "(reads stage, SMF gap, ICP and other artifacts from the client's Notion page)"
 ---
 
-# 12 · Action Plan — 30-90-180 (GATE 3)
+# 13 · Action Plan — 30-90-180 (GATE 3)
 
-Фінальний крок і **третій чекпоінт**. Звести все у пріоритизований **екшн-план на 30 / 90 / 180 днів**.
+Фінальний крок і **фінальний чекпоінт (GATE 3)**. Звести все у пріоритизований **екшн-план на 30 / 90 / 180 днів**.
 Основа плану: **Стадія + найдешевша SMF-діра + AGA-мапінг** (рішення зафіксоване в архітектурі флоу).
 
 Прочитай `${CLAUDE_PLUGIN_ROOT}/reference/agency-stages.md` (розділи 2, 4, 5, 8). **GTM enrichment** (`${CLAUDE_PLUGIN_ROOT}/reference/gtm-frameworks.md` §0,§7,§8):
 proof-мілстоуни (Problem-Solution → PMF → GTM-fit → Scaling; Sean Ellis ≥40%) · NSM + OKR (огляд щомісяця) ·
 **Experimentation Loop** + **Impact × Ease** пріоритизація · 90-day plan. Підтягни з Notion-
-сторінки клієнта: Stage, SMF gap, AGA focus + **усі артефакти кроків 03-11** (03 ринок/ICP/тіри/персона ·
-04 market-sizing · 05 competitor+whitespace · 06 VP · 07 offers · 08 шлях клієнта · 09 materials ·
-10 channels · 11 docs). Чого ще нема — врахуй як «залежність». KPI бери leading; де доречно — бенчмарки
+сторінки клієнта: Stage, SMF gap, AGA focus + **усі артефакти кроків 03-12** (03 ринок/ICP/тіри/персона ·
+04 market-sizing · 05 competitor+whitespace · 06 positioning · 07 VP · 08 offers · 09 шлях клієнта ·
+10 materials · 11 channels · 12 docs). Чого ще нема — врахуй як «залежність». KPI бери leading; де доречно — бенчмарки
 Z1 (Appendix A).
 
 ## Логіка пріоритизації
 1. **Стадія** задає стелю амбіцій (що доречно зараз, що передчасно).
 2. **SMF-діра** задає, ЩО лагодимо першим (закривай найдешевшу діру: L → Cr → $ → #).
 3. **AGA-фокус** задає, ЯКИЙ блок робіт активуємо (M1 / M2–M3 / M4 / M5).
-4. **Overshoot/undershoot** (з кроків 9–11) → конкретні «вбити» та «збудувати».
+4. **Overshoot/undershoot** (з кроків 10–12) → конкретні «вбити» та «збудувати».
 
 ## Структура плану
 
@@ -50,7 +50,7 @@ Z1 (Appendix A).
 `Status = Plan ready`.
 
 ## Вихід (Notion)
-Під-сторінка **«12 · Action Plan 30-90-180»**: 3 горизонти з task-картками (таблиця або тогли),
+Під-сторінка **«13 · Action Plan 30-90-180»**: 3 горизонти з task-картками (таблиця або тогли),
 блоки overshoot/undershoot/«не робимо», і резюме зверху (Стадія · SMF-діра · AGA-фокус · топ-3 дії).
 Українською. Блок «Джерела/припущення».
 
