@@ -1,0 +1,12 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Local GTM output (fallback when Notion unavailable)
+gtm-output/
+
+# Editor / env
+.vscode/
+.idea/
+*.log
+.env

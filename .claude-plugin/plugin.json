@@ -1,0 +1,20 @@
+{
+  "name": "gtm-strategy",
+  "version": "0.2.0",
+  "description": "Cold-audit GTM strategy flow for IT agencies. From a website URL: diagnose agency stage, then build ICP, value prop, offers, competitor + gap analysis, buyer journey, and recommend marketing materials / lead-gen channels / internal docs — ending in a 30-90-180 action plan. Stage-adaptive, checkpointed, outputs to Notion in Ukrainian.",
+  "author": {
+    "name": "Viktor Shulha",
+    "url": "https://github.com/b2b-global"
+  },
+  "keywords": ["gtm", "b2b", "it-agency", "icp", "positioning", "outbound", "notion", "action-plan"],
+  "license": "MIT",
+  "userConfig": {
+    "linkedin_li_at": {
+      "type": "string",
+      "title": "LinkedIn li_at cookie",
+      "description": "LinkedIn session cookie (li_at). Used by cookie-based Apify actors to pull full employee roster, headcount and 6m/1y/2y growth + median tenure for the Intake step. Optional — without it, headcount trend falls back to a pasted LinkedIn Premium value.",
+      "sensitive": true
+    }
+  },
+  "skills": "./skills/"
+}
