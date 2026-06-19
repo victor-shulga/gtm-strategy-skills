@@ -80,13 +80,20 @@ claude --plugin-dir ./gtm-strategy-skills
 
 ---
 
-## Залежності
+## Залежності та інтеграції
 
-- **Notion MCP** (опційно) — для запису артефактів. Без нього є fallback у локальні `.md`
-  (`gtm-output/`, див. `reference/notion-schema.md`).
-- Деякі кроки можуть **реюзати** наявні GTM-скіли (icp-builder, offer-factory, competitor-finder,
-  niche-data-finder тощо). Якщо їх немає — крок виконує логіку inline.
-- Для скрейпу JS-сайтів і LinkedIn-команди — Apify MCP (опційно).
+Працює всередині **Claude Code**. Перед сетапом підключи (скіл сам підкаже, де що потрібно):
+
+| Інтеграція | Для чого | Потрібна? | Auth / налаштування |
+|---|---|---|---|
+| `WebFetch` + Bash (`curl`, `grep`) | Парсинг сайту агенції: послуги, ICP, копірайт, кейси | **Вбудовано** — без сетапу | — |
+| **Notion** (MCP) | Запис фінальних артефактів стратегії у Notion (основний deliverable) | Дуже бажана. Без неї — fallback у локальні `.md` у `gtm-output/` (див. `reference/notion-schema.md`) | Підключити Notion MCP / OAuth |
+| **Apify** (MCP) | Скрейп JS-важких сайтів + LinkedIn-команда (роестр, headcount, 6м/1р/2р ріст, median tenure) у кроці 01-intake | Опційно | Apify MCP / `APIFY_TOKEN` + cookie `linkedin_li_at` (див. `userConfig` у `plugin.json`) |
+| **Ahrefs / SimilarWeb** (MCP) | Трафік/SEO-овервʼю в 01-intake (обовʼязковий у снапшоті) | Опційно, але рекомендовано | Ahrefs MCP (Trial=0 units → fallback SimilarWeb lite) |
+| Наявні GTM-скіли (icp-builder, offer-factory, competitor-finder, niche-data-finder…) | Деякі кроки **реюзають** їх, якщо встановлені | Опційно | Якщо їх немає — крок виконує логіку inline |
+
+LLM-ключ окремо не потрібен — усе працює на самому Claude Code. Без Apify/Ahrefs кроки не падають:
+headcount-тренд бере pasted LinkedIn Premium значення, а трафік — лайт-фолбек.
 
 ---
 
