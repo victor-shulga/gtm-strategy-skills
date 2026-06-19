@@ -101,7 +101,7 @@ journey: контент/освіта). Логіка: є попит→capture; н
 **7 GTM-motions (Roberge)** — обери реверсом від цілей, ROI у 3-18 міс:
 1. **Inbound** (контент/free tools; SME/mid-market; delayed 3-6 міс; потрібні analytics+CRM).
 2. **Paid** (6 суб: SEM · social · influencers · affiliate · PR · media buying; ~80% verified / ≤20% experiment; LTV не CAC).
-3. **Outbound** (cold email/LI/call; персоналізуй; 8-touch cadence Day1-17; tools Apollo/Lemlist/Instantly).
+3. **Outbound** (cold email/LI/call; персоналізуй; 8-touch cadence Day1-17; stack: enrichment + sequencer + sending tool).
 4. **ABM** (high-LTV $20-50k+; math: $10k LTV/20% win→500 акаунтів, $100k/10%→100, $1M/2%→50; ≤20 акаунтів/кв; меседж per DMU).
 5. **Community** (give before get; 1-2 цінні пости/тиждень; ≥6 год/тиждень або CM; Community Canvas).
 6. **Partners** (4 типи: solution/promotion/sales/purpose; value для кожного + cultural fit + RASCI; offer-first; ~50 год face-time).
