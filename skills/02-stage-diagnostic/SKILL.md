@@ -1,6 +1,6 @@
 ---
 name: 02-stage-diagnostic
-description: Step 2 of the GTM flow and CHECKPOINT 1. Diagnose an IT agency growth stage 0-4 from the Company Snapshot using the agency-path model, plus the Sales-Market-Fit lens (L, Cr, $, # — which profit driver is leaking), and output the 3 discovery questions to confirm the stage with the client. Use when the user asks яка стадія агенції, діагностуй стадію, stage diagnosis, or right after intake. Stage drives the depth of every later step. Writes to Notion in Ukrainian.
+description: Step 2 of the GTM flow and CHECKPOINT 1. Diagnose an IT agency growth stage 0-4 from the Company Snapshot using the Victor Shulga agency-path model, plus the Sales-Market-Fit lens (L, Cr, $, # — which profit driver is leaking), and output the 3 discovery questions to confirm the stage with the client. Use when the user asks яка стадія агенції, діагностуй стадію, stage diagnosis, or right after intake. Stage drives the depth of every later step. Writes to Notion in Ukrainian.
 argument-hint: "(reads the Company Snapshot from the client's Notion page)"
 ---
 
