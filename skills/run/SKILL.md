@@ -1,13 +1,13 @@
 ---
 name: run
-description: Orchestrate the full Victor Shulga GTM strategy flow for an IT agency from a website URL (cold audit). Use when the user wants a complete go-to-market strategy, a GTM audit, an agency-stage diagnosis followed by ICP, value prop, offers, competitor and buyer-journey work, or a 30-90-180 action plan from just a site. Ukrainian triggers include зроби GTM стратегію для url, GTM аудит агенції, побудуй go-to-market, стратегія з сайту, 30-90-180 план. Runs stage-adaptively, stops at 3 checkpoints, and writes every artifact to Notion in Ukrainian.
+description: Orchestrate the full GTM strategy flow for an IT agency from a website URL (cold audit). Use when the user wants a complete go-to-market strategy, a GTM audit, an agency-stage diagnosis followed by ICP, value prop, offers, competitor and buyer-journey work, or a 30-90-180 action plan from just a site. Ukrainian triggers include зроби GTM стратегію для url, GTM аудит агенції, побудуй go-to-market, стратегія з сайту, 30-90-180 план. Runs stage-adaptively, stops at 3 checkpoints, and writes every artifact to Notion in Ukrainian.
 argument-hint: "<agency-website-url>"
 disable-model-invocation: false
 ---
 
 # GTM Strategy — Orchestrator (`run`)
 
-Ти ведеш повний GTM-флоу Victor Shulga для **IT-агенції** методом **cold audit**: на вході лише URL,
+Ти ведеш повний GTM-флоу для **IT-агенції** методом **cold audit**: на вході лише URL,
 усе інше виводиться з публічного вебу + логіки стадій. Вихід — у **Notion, українською**.
 
 **Вхід:** `$ARGUMENTS` = URL сайту агенції. Якщо URL не передано — спитай його (одне питання) і стоп.
