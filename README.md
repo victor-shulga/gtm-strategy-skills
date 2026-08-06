@@ -29,7 +29,7 @@
 
 | #  | Скіл | Призначення | Гейт |
 |----|------|-------------|------|
-| 0  | `run` | Оркестратор: веде флоу, тримає Notion-сторінку клієнта, передає контекст | — |
+| 0  | `gtm-run` | Оркестратор: веде флоу, тримає Notion-сторінку клієнта, передає контекст | — |
 | 1  | `01-intake` | URL → скрейп сайту → Company Snapshot | — |
 | 2  | `02-stage-diagnostic` | Стадія 0–4 + SMF-діра + 3 discovery-питання | **GATE 1** |
 | 3  | `03-market-icp-persona` | Ринки (топ-3) → Тіри (1/2/3) → Персони + Anti-ICP | **GATE 2** |
@@ -44,7 +44,7 @@
 | 12 | `12-docs-plan` | Матриця 47×7: inventory + gap (рекомендації) | — |
 | 13 | `13-action-plan` | **30-90-180** з (Стадія + SMF + AGA) | **GATE 3** |
 
-> **v0.3.0:** реалізовано **всі кроки `01`–`13` + оркестратор `run`** (positioning виокремлено в крок 06). 
+> **v0.3.0:** реалізовано **всі кроки `01`–`13` + оркестратор `gtm-run`** (positioning виокремлено в крок 06). 
 
 ---
 
@@ -66,7 +66,7 @@
 ```
 /plugin marketplace add victor-shulga/gtm-strategy-skills
 /plugin install gtm-strategy@gtm-strategy-skills
-/gtm-strategy:run https://example-agency.com
+/gtm-strategy:gtm-run https://example-agency.com
 ```
 Оновлення: `/plugin marketplace update gtm-strategy-skills`.
 
@@ -74,7 +74,7 @@
 ```bash
 git clone https://github.com/victor-shulga/gtm-strategy-skills.git
 claude --plugin-dir ./gtm-strategy-skills
-/gtm-strategy:run https://example-agency.com
+/gtm-strategy:gtm-run https://example-agency.com
 ```
 Зміни підхоплюються `/reload-plugins`. Або скопіюй папку в `~/.claude/skills/`.
 
@@ -105,6 +105,6 @@ bash scripts/validate.sh
 
 Перевіряє структуру плагіна (чистий `python3`, без залежностей): `name:` фронтматера == ім'я папки ·
 номери в H1 / «Step N» / Notion-заголовках збігаються з папкою · послідовність кроків `01..NN` без
-дір/дублів · оркестратор `run` посилається на кожен крок · описи YAML-безпечні (без лапок / `: `) ·
+дір/дублів · оркестратор `gtm-run` посилається на кожен крок · описи YAML-безпечні (без лапок / `: `) ·
 JSON валідний і версії `plugin.json` ↔ `marketplace.json` збігаються. Той самий чек ганяє CI
 (`.github/workflows/ci.yml`) на кожен push/PR.
