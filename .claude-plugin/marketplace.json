@@ -1,7 +1,7 @@
 {
   "name": "gtm-strategy-skills",
   "metadata": {
-    "description": "GTM strategy skills for IT agencies — a 13-step cold-audit flow that outputs a full go-to-market strategy and a 30-90-180 action plan to Notion."
+    "description": "GTM strategy skills for IT agencies — a 13-step cold-audit flow plus a standalone 23-criteria GTM audit; outputs a full go-to-market strategy and a 30-90-180 action plan to Notion."
   },
   "owner": {
     "name": "Victor Shulga",
@@ -11,8 +11,8 @@
     {
       "name": "gtm-strategy",
       "source": "./",
-      "description": "Cold-audit GTM strategy flow for IT agencies: 13 steps + orchestrator (stage -> ICP/market -> sizing -> competitor/GAP -> positioning -> value prop -> offers -> buyer journey -> materials/channels/docs -> 30-90-180 action plan). Outputs to Notion in Ukrainian.",
-      "version": "0.3.0",
+      "description": "Cold-audit GTM strategy flow for IT agencies: 13 steps + orchestrator + a standalone 23-criteria GTM audit (stage -> ICP/market -> sizing -> competitor/GAP -> positioning -> value prop -> offers -> buyer journey -> materials/channels/docs -> 30-90-180 action plan). Outputs to Notion in Ukrainian.",
+      "version": "0.4.0",
       "keywords": ["gtm", "b2b", "it-agency", "icp", "positioning", "outbound", "notion"],
       "author": {
         "name": "Victor Shulga / Victor Shulga"

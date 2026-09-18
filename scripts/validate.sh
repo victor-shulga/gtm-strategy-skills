@@ -107,16 +107,16 @@ if nums:
     dups = sorted({f"{n:02d}" for n in nums if nums.count(n) > 1})
     if missing: err(f"sequence gap: missing step(s) {missing}")
     if dups:    err(f"sequence duplicate step number(s) {dups}")
-if not os.path.isdir(os.path.join(ROOT, "skills", "run")):
-    err("missing orchestrator skill: skills/run")
+if not os.path.isdir(os.path.join(ROOT, "skills", "gtm-run")):
+    err("missing orchestrator skill: skills/gtm-run")
 
 # ---------- 4. Orchestrator wiring: run/ must reference every numbered step ----------
-run_md = os.path.join(ROOT, "skills", "run", "SKILL.md")
+run_md = os.path.join(ROOT, "skills", "gtm-run", "SKILL.md")
 if os.path.isfile(run_md):
     run_txt = open(run_md, encoding="utf-8").read()
     for num, folder in numbered:
         if f"gtm-strategy:{folder}" not in run_txt and folder not in run_txt:
-            err(f"run/SKILL.md does not reference step '{folder}'")
+            err(f"gtm-run/SKILL.md does not reference step '{folder}'")
 
 # ---------- report ----------
 print(f"Checked {len(skill_dirs)} skills ({len(numbered)} numbered steps + run).")

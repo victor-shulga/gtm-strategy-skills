@@ -1,6 +1,6 @@
 {
   "name": "gtm-strategy",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "Cold-audit GTM strategy flow for IT agencies. From a website URL: diagnose agency stage, then build ICP, competitor + gap analysis, stage-gated positioning, value prop, offers, buyer journey, and recommend marketing materials / lead-gen channels / internal docs — ending in a 30-90-180 action plan. Stage-adaptive, checkpointed, outputs to Notion in Ukrainian.",
   "author": {
     "name": "Viktor Shulha",
