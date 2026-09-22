@@ -1,12 +1,12 @@
 ---
 name: 02-stage-diagnostic
-description: Step 2 of the GTM flow and CHECKPOINT 1. Diagnose an IT agency growth stage 0-4 from the Company Snapshot using the agency-path model, plus the Sales-Market-Fit lens (L, Cr, $, # — which profit driver is leaking), and output the 3 discovery questions to confirm the stage with the client. Use when the user asks яка стадія агенції, діагностуй стадію, stage diagnosis, or right after intake. Stage drives the depth of every later step. Writes to Notion in Ukrainian.
+description: Step 2 of the GTM flow and CHECKPOINT 1. Diagnose an IT agency growth stage 0-5 from the Company Snapshot using the agency-path model, plus the Sales-Market-Fit lens (L, Cr, $, # — which profit driver is leaking), and output the 3 discovery questions to confirm the stage with the client. Use when the user asks яка стадія агенції, діагностуй стадію, stage diagnosis, or right after intake. Stage drives the depth of every later step. Writes to Notion in Ukrainian.
 argument-hint: "(reads the Company Snapshot from the client's Notion page)"
 ---
 
 # 02 · Stage Diagnostic — стадія + SMF (GATE 1)
 
-Другий крок і **перший чекпоінт**. Визнач стадію агенції 0–4 і де в економіці клієнта діра.
+Другий крок і **перший чекпоінт**. Визнач стадію агенції 0–5 і де в економіці клієнта діра.
 Стадія керує глибиною всіх наступних кроків («чим раніше стадія — тим менше всього»).
 
 Прочитай `${CLAUDE_PLUGIN_ROOT}/reference/agency-stages.md` (розділи 1–5). Вхід — Company Snapshot
@@ -15,30 +15,36 @@ argument-hint: "(reads the Company Snapshot from the client's Notion page)"
 ## Процес
 
 1. **Стадія (cold-audit гіпотеза).** Зістав проксі-сигнали зі Snapshot з таблицею стадій і
-   cold-audit сигналами (розділ 1 довідника). Визнач **найімовірнішу стадію 0–4** і дай
+   cold-audit сигналами (розділ 1 довідника). Визнач **найімовірнішу стадію 0–5** і дай
    **рівень впевненості: low / med / high** з 2–4 причинами «чому саме ця стадія».
    - Якщо сигнали суперечливі — назви дві сусідні стадії й що їх розрізнить.
    - ARR прямо не видно → не вигадуй цифру; працюй із проксі (presence, кейси, команда, канали, офери).
    - **Склад команди з LinkedIn (секція 11 Snapshot) — головний проксі стадії:** 0 видимих
      Sales/Marketing/SDR/AM = founder-led → Стадія 0-1; поява окремих біздев-ролей → 2; керівники
-     функцій (Head of Sales/Marketing/CS) → 3-4. Це перевершує claim'и сайту: якщо сайт каже «20+
+     функцій (Head of Sales/Marketing/CS) → 3-4; C-level з розділеними функціями (CRO/CMO/CCO) + лідери практик → 5. Це перевершує claim'и сайту: якщо сайт каже «20+
      років / 200+ проєктів», а в LinkedIn 1-2 особи й сутність нова — стадія за **реальною командою**,
      а claim познач як «особистий досвід founder'а / інша юрособа».
-   - **Headcount як проксі (агенції $0–5M):** 0–2 → 0-1 · 3–7 → 2 · 7–12 → 3 · 15+ → 4.
-     ⚠️ Якщо headcount різко вищий за діапазон моделі (напр. сотні/тисячі) — це **НЕ SMB-агенція**
-     цієї моделі: перевір, чи правильна LinkedIn-сутність (той самий бренд/slug), і чи взагалі в скоупі.
+   - **Headcount як проксі (весь штат, не тільки BizDev):** до 5 → 0 · 5–15 → 1 · 15–45 → 2 ·
+     45–140 → 3 · 140–400 → 4 · 400+ → 5. Перевірка через ревеню: **headcount × $70K ≈ ARR**
+     (коридор $60–90K на людину для EE IT-сервісу). Якщо названий ARR і headcount дають різні
+     стадії — бери нижчу і назви розбіжність у припущеннях: сильно вище $90K/людину = US/UK rates
+     або продуктова частка, сильно нижче $60K = бенч / субпідряд / дешевий аутстаф.
+     ⚠️ Тисячі людей — це Стадія 5 (портфель практик), а не «поза моделлю». Але спершу перевір,
+     чи правильна LinkedIn-сутність (той самий бренд/slug) — глобальні групи роздувають headcount.
    - **Тренд росту (6м/1р/2р) = momentum:** hiring spike → активне масштабування (можна вмикати більше
      каналів); flat/decline → обережність із інвестиціями. **Median tenure** = стабільність команди
      (низький tenure + швидкий ріст = молода орг; високий tenure = зрілість).
    - **Tie-breaker Стадія 0 ↔ 1 (часта помилка):** presence-артефакти (лендінг, лого) **НЕ** підвищують
      стадію — лендінг буває й на 0. **6+ розмитих послуг = «все для всіх» (0)**, а не свідомі 2-4 тест-офери
      з метриками (1). Вирішують **traction + команда**: Стадія 1 = 1-2 стабільні платні клієнти + 2-3
-     активні канали + ARR >$120K. Інакше (0 біздев · делівері = 1-2 інженери · 0 кейсів · «все для всіх»)
+     активні канали + ARR >$300K. Інакше (0 біздев · делівері = 1-2 інженери · 0 кейсів · «все для всіх»)
      → **Стадія 0**. Не плутай «новий бренд із лендінгом» зі Стадією 1.
 2. **SMF-лінза.** За розділом 2 визнач найімовірнішу **діру (L / Cr / $ / #)** для цієї стадії і
    аргументуй з ознак сайту (напр.: нема кейсів з $ → ймовірна діра Cr/$; порожня company page + лише
    Upwork → діра L). Признач **найдешевшу діру для закриття першою**.
 3. **AGA-фокус.** За розділом 4 признач рекомендовані модулі (M1 / M2–M3 / M4 / M5) під стадію.
+   На Стадії 4–5 AGA не пропонуємо: заходимо як Fractional CRO, GTM-аудит або RevOps під одну
+   практику/вертикаль, і покупець — CRO/CMO або лідер практики, а не CEO.
 4. **Overshoot/undershoot (швидкий).** З огляду на Snapshot познач 1–2 явні overshoot (матеріал/актив
    випереджає стадію) і 1–2 undershoot (відстає) — повний аудит буде на кроках 9–11.
 5. **3 discovery-питання.** Виведи 3 питання з розділу 1 довідника для підтвердження стадії з клієнтом.
@@ -55,7 +61,7 @@ argument-hint: "(reads the Company Snapshot from the client's Notion page)"
 `Status = Diagnosed`.
 
 ## Definition of Done
-- Стадія 0–4 з рівнем впевненості та обґрунтуванням.
+- Стадія 0–5 з рівнем впевненості та обґрунтуванням (ARR-брекет + headcount узгоджені).
 - SMF-діра визначена + «закрити першою».
 - AGA-фокус + по 1–2 overshoot/undershoot.
 - 3 discovery-питання виведені для GATE 1.

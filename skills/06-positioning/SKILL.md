@@ -82,7 +82,7 @@ argument-hint: "(reads competitor/whitespace 05 + market/ICP 03 + stage 02 in No
 ## Стадійний гейт (серце кроку)
 Читається з 02. Визначає стелю сміливості:
 
-| | **Стадія 0-1** | **Стадія 2** | **Стадія 3-4** |
+| | **Стадія 0-1** | **Стадія 2** | **Стадія 3-5** |
 |---|---|---|---|
 | Позиціонування | provisional **гіпотеза** (beachhead) | **закомічене** на доказах | захищається й еволюціонує |
 | Dunford-стиль | тільки Big-Fish-Small-Pond | Big-Fish → Head-to-Head | Head-to-Head / Create-New-Game |
@@ -91,7 +91,7 @@ argument-hint: "(reads competitor/whitespace 05 + market/ICP 03 + stage 02 in No
 | Ворог | широкий статус-кво | звужений failure-mode ніші | може стати назвою категорії |
 | «Say no» | аспіраційний напрям | відмова ≥1 off-pattern угоді | стандарти non-negotiable |
 | №1 ризик | заніширувався → помер до пруфу | відкат у «так усім» | positioning-delivery gap |
-| Тригер репозиції | — | **$500K-$1M ARR** (§4) | нова PMF / сегмент / продукт |
+| Тригер репозиції | — | **$1M–$3M ARR** (§4) | нова PMF / сегмент / продукт / нова практика |
 
 **Стадія 0 окремо:** «нема позиціонування, робимо все» — це *діагноз*. Тут лише **1 гіпотеза-beachhead**
 з 1 найкращого клієнта. Без матриць.
@@ -106,7 +106,7 @@ argument-hint: "(reads competitor/whitespace 05 + market/ICP 03 + stage 02 in No
 | 1 Basic | statement лише у founder'а; не в sales/сайті; «category of one» без proof | 0-1 |
 | 2 Structured | positioning canvas (for whom / alternatives / unique value / category / evidence) | 2 |
 | 3 Advanced | diff по сегментах; battle cards; win/loss aligned; A/B повідомлень | 2-3 |
-| 4 Optimized | category creation / subcategory ownership; verbatim; annual re-validation | 3-4 |
+| 4 Optimized | category creation / subcategory ownership; verbatim; annual re-validation | 3-5 |
 
 Скоринг-дисципліна: найвищий рівень, де виконані **ВСІ** критерії; 3 з 4 = попередній; кожен бал — з
 evidence (цитата з сайту/дискавері), інакше score = рівень нижче; **artifacts > слова**. **Стеля =
