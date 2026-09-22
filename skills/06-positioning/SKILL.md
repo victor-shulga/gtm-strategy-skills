@@ -1,6 +1,17 @@
 ---
 name: 06-positioning
-description: Step 6 of the GTM flow (right after competitor+GAP, BEFORE value prop). Build the agency's positioning from the whitespace found in step 05, gated by the agency's stage (0-4). Runs an 8-step spine — best-customer pattern, competitive alternatives (for agencies the real alternative is in-house / freelancers / do-nothing), specialization axis + anchor + a named ENEMY (the outdated status-quo you replace), score assets vs table-stakes, benefits + stage-appropriate proof, USP + Dunford positioning style, the landed statement + 3 key benefits, and the say-no standards test. Stage gate controls how bold the claim can be (you cannot claim a category/premium before case studies exist). Propose-by-default — where the client can't name something, the skill proposes a hypothesis (marked with confidence). Ends with a Z1.4 maturity self-score (now -> ceiling -> gap). Use when the user asks позиціонування, positioning, чим відрізняємось, категорія, ніша, специалізація, enemy, anchor, differentiation. Writes to Notion in Ukrainian.
+description: >-
+  Step 6 of the GTM flow (after competitor+GAP, before value prop). Builds the agency's positioning
+  from the whitespace found in step 05, gated by the agency's stage (0-4). Runs an 8-step spine: best-
+  customer pattern, competitive alternatives (for agencies the real alternative is in-house /
+  freelancers / do-nothing), specialization axis + anchor + a named ENEMY (the status quo you
+  replace), assets vs table stakes, benefits + stage-appropriate proof, USP + Dunford positioning
+  style, the landed statement + 3 key benefits, and the say-no standards test. The stage gate controls
+  how bold the claim can be (no category or premium claim before case studies exist). Propose-by-
+  default: where the client cannot name something, the skill proposes a hypothesis with a confidence
+  mark. Ends with a Z1.4 maturity self-score (now -> ceiling -> gap). Use when asked about
+  позиціонування, positioning, чим відрізняємось, категорія, ніша, спеціалізація, enemy, anchor,
+  differentiation. Writes to Notion in Ukrainian.
 argument-hint: "(reads competitor/whitespace 05 + market/ICP 03 + stage 02 in Notion)"
 ---
 
