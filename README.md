@@ -50,31 +50,17 @@
 
 ---
 
-## Маркетинг і операції (17 окремих скілів)
+## Планування й операції (3 окремі скіли)
 
-Окремі інструменти, на які посилаються задачі GTM-системи. Не входять у флоу `gtm-run`, кличуться напряму або через Макса (`/max`).
+Окремі інструменти, на які посилаються задачі планування GTM-системи. Не входять у флоу `gtm-run`, кличуться напряму або через Макса (`/max`). Маркетингові скіли (рекомендації, ціни, тексти, SEO тощо) живуть в окремому паку [marketing-engine-skills](https://github.com/victor-shulga/marketing-engine-skills).
 
 | Скіл | Для чого |
 |---|---|
-| `referrals` | програма рекомендацій і партнерська програма |
-| `marketing-plan` | маркетинговий план |
-| `revops` | процеси й дані продажів (RevOps) |
-| `pricing` | ціни й пакети |
-| `analytics` | налаштування аналітики й трекінгу |
-| `customer-research` | дослідження клієнтів: інтерв'ю, відгуки, мова клієнта |
-| `lead-magnets` | лід-магніти |
-| `competitor-profiling` | профілі конкурентів |
-| `content-strategy` | контент-стратегія |
-| `free-tools` | безкоштовні інструменти як канал |
-| `ai-seo` | видимість в AI-пошуку |
-| `copywriting` | тексти сторінок |
-| `cro` | конверсія сторінок і форм |
-| `seo-audit` | SEO-аудит |
 | `capacity-plan` | план ресурсів і годин команди |
 | `risk-assessment` | оцінка ризиків |
 | `status-report` | статус-звіт по проєкту |
 
-**Авторство.** Перші 14 скопійовано з [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) (Corey Haines, MIT), останні 3 з [anthropics/knowledge-work-plugins](https://github.com/anthropics/knowledge-work-plugins) (Anthropic, Apache-2.0). У кожній теці лежать `LICENSE` оригіналу і `NOTICE.md`: звідки взято і що змінено.
+**Авторство.** Скопійовано з [anthropics/knowledge-work-plugins](https://github.com/anthropics/knowledge-work-plugins) (Anthropic, Apache-2.0). У кожній теці лежать `LICENSE` оригіналу і `NOTICE.md`: звідки взято і що змінено.
 
 ---
 
