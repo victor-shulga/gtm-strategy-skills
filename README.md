@@ -19,9 +19,10 @@
 3. **Checkpointed** — оркестратор зупиняється на 4 чекпоінтах (Стадія → ICP → Positioning → Фінальний план) для рев'ю.
 4. **Recommend, not generate** — кроки mat/channels/docs дають пріоритизовані списки (inventory + gap +
    overshoot/undershoot), а не самі артефакти.
-5. **Reuse** — де можливо, кроки викликають наявні скіли Viktor'а (`website-scraper`,
-   `deep-company-analyser`, `08-icp-builder`, `10-persona-builder`, `value-prop-lister`,
-   `offer-factory`, `competitor-finder`, `niche-data-finder`, `gtm-action-thinker`).
+5. **Reuse** — де можливо, кроки викликають наявні скіли стеку, якщо встановлені: з цього паку
+   `competitor-finder`, `market-research-edp`, `gtm-action-thinker`, `persona-insights-analysis`;
+   з outbound-engine-skills `icp-builder`, `persona-builder`, `niche-data-finder`; `account-dossier`
+   (account-management-skills), `value-prop-lister` (sales-engine-skills), `offer-factory` (gtm-skills).
 
 ---
 
@@ -49,6 +50,22 @@
 > **v0.3.0:** реалізовано **всі кроки `01`–`13` + оркестратор `gtm-run`** (positioning виокремлено в крок 06). 
 
 ---
+
+## Дослідження, перевірка ідей і план зростання (7 окремих скілів)
+
+Кроки флоу кличуть їх, якщо встановлені (05 → `competitor-finder`, 03/04 → `market-research-edp`, 06/13 → `gtm-action-thinker`), або їх запускають напряму.
+
+| Скіл | Для чого |
+|---|---|
+| `competitor-finder` | карта конкурентів з доказами: прямі фірми, фрилансери з маркетплейсів, суміжні постачальники, свій найм, «нічого не робити» |
+| `market-research-edp` | дані про ринок, через які проблема покупця стає терміновою (з джерелами), і як кожне перетворити на перший рядок листа |
+| `persona-insights-analysis` | записи дзвінків → що покупці кажуть насправді: болі, тригери, заперечення, дослівні цитати |
+| `gtm-action-thinker` | стрес-тест ідеї чи плану: що має бути правдою, сліпі плями, критерії зупинки, найдешевший тест |
+| `revenue-forecast-writer` | прогноз виручки двічі (від цілі й від реальної потужності), розрив, вузьке місце, план/факт |
+| `growth-planner` | інтерв'ю з власником блок за блоком → план зростання по каналах з тижневими числами (HTML-планер) |
+| `sales-hiring-brief` | профіль посади, скоркарта, інтерв'ю-кіт, тестове завдання, онбординг 30/60/90 |
+
+`competitor-finder`, `market-research-edp`, `persona-insights-analysis` і `gtm-action-thinker` написані наново; ідею взято з публічних скілів lemlist (кредит усередині кожного SKILL.md). Решта — авторські скіли Victor Shulga.
 
 ## Планування й операції (3 окремі скіли)
 

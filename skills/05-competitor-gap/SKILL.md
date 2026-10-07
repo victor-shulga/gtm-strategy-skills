@@ -16,7 +16,7 @@ argument-hint: "(reads market/ICP + sizing from steps 3-4 in Notion)"
 `${CLAUDE_PLUGIN_ROOT}/reference/agency-stages.md`.
 
 ## Реюз
-`competitor-finder` + `WebSearch` (реальні гравці, ціни, відгуки G2/Clutch). Кожен конкурент — з
+`competitor-finder` (цей пак, якщо встановлений) + `WebSearch` (реальні гравці, ціни, відгуки G2/Clutch). Кожен конкурент — з
 посиланням/джерелом.
 
 ## Кластери (не забувай непрямих — найчастіша помилка)

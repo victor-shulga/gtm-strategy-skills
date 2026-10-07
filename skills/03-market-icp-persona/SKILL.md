@@ -19,8 +19,10 @@ Cold audit → це гіпотеза з offer + мови клієнта + тех
 (Цей крок поглинув колишній `04-personas`: персони — рівень 3 тут.)
 
 ## Реюз
-- `08-icp-builder` / `deep-company-analyser` для синтезу; `niche-data-finder` / `market-research-edp`
-  — для оцінки ринків і розміру. Named-списки акаунтів — пізніше у list-building, не тут.
+- `icp-builder` (outbound-engine-skills) / `account-dossier` (account-management-skills) для синтезу;
+  `market-research-edp` (цей пак) / `niche-data-finder` (outbound-engine-skills) — для оцінки ринків і розміру.
+  Усе — якщо встановлено. Named-списки акаунтів — пізніше у `data-research` / `account-sourcing`
+  (outbound-engine-skills), не тут.
 
 ## Рівень 1 · Цільові ринки (СПЕРШУ)
 Не стрибай одразу до «3 ринків» — спершу покажи, **як вони потрапили в список**:

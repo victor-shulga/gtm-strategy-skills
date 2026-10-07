@@ -19,7 +19,7 @@ ICP) з Notion.
 наш тип рішення`.
 
 ## Реюз
-- `market-sizer` / `market-research-edp` / `niche-data-finder` + `WebSearch` для джерел (к-сть фірм,
+- `market-research-edp` (цей пак) / `niche-data-finder` (outbound-engine-skills), якщо встановлені, + `WebSearch` для джерел (к-сть фірм,
   market reports, ARPU). Кожне число — з посиланням; де нема — позначити «оцінка, перевірити».
 - Опційно заповнити Google-шаблон Viktor'а (TAM_SAM_SOM_Template) копією — за запитом.
 

@@ -17,8 +17,8 @@ buyer journey**. Recommendations only (не запускаємо канали т
 demand-generation · **CAC = ⅓ LTV** · ABM account-math · **Growth Loops** (5 архетипів).
 
 ## Реюз
-`niche-data-finder` (джерела даних під нішу) · `list-builder` / `company-finder` / `people-finder`
-(як зібрати список) · `WebSearch` (знайти РЕАЛЬНІ спільноти/групи/асоціації/директорії, де є саме цей ICP).
+`niche-data-finder` (outbound-engine-skills: джерела даних під нішу) · `data-research` / `account-sourcing` /
+`waterfall-enrichment` (outbound-engine-skills: як зібрати список і контакти) · `WebSearch` (знайти РЕАЛЬНІ спільноти/групи/асоціації/директорії, де є саме цей ICP).
 
 ## Принципи (важливо)
 - **Distribution — останнє.** Спершу Offer (08) + Proofs (10). Не масштабуй канал, поки нема валідного
@@ -49,7 +49,7 @@ CRM), best-practice мережі, події, подкасти. Кожен ма�
 дістатись* (звідки список — реюз niche-data-finder) · *Effort/cost* · *First action* · *KPI*.
 
 **3 · Sequencing.** Стадія 0 → запустити 1 primary до перших 3-5 угод; тоді тестувати 2-3 гіпотези
-(звʼязок із 06-hypothesis-builder), вбивати програшні.
+(звʼязок із `hypothesis-builder`, outbound-engine-skills), вбивати програшні.
 
 **4 · Що НЕ вмикати зараз** (overshoot guard): передчасні канали для стадії (напр. SEO/paid/events на
 Стадії 0 — довгий payback, нема проофів).

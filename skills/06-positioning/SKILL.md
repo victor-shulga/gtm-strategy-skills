@@ -30,8 +30,9 @@ argument-hint: "(reads competitor/whitespace 05 + market/ICP 03 + stage 02 in No
 `${CLAUDE_PLUGIN_ROOT}/reference/gtm-frameworks.md` §3 (2×2 matrix), §4 (**Peršolja 8-step**, UVP/USP), §9 (анти-патерни).
 
 ## Реюз
-`competitor-finder` / артефакт 05 (НЕ дублюй — читай) · `deep-company-analyser` (customer language) ·
-`value-prop-lister` · `gtm-action-thinker` (стрес-тест кута) · `anticopywriting-ai` (людяний тон).
+`competitor-finder` (цей пак) / артефакт 05 (НЕ дублюй — читай) · `persona-insights-analysis` (цей пак) або
+`account-dossier` (account-management-skills) — мова клієнта · `value-prop-lister` (sales-engine-skills) ·
+`gtm-action-thinker` (цей пак, стрес-тест кута) · `anticopywriting-ai` (gtm-skills, людяний тон). Усе — якщо встановлено.
 
 ## Принцип «Propose-by-default» (наскрізний)
 Це cold audit — клієнт часто **не може сам назвати** ворога, анкер чи best-customer. Правило:
