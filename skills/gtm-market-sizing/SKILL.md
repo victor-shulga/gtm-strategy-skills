@@ -1,5 +1,5 @@
 ---
-name: 04-market-sizing
+name: gtm-market-sizing
 description: Step 4 of the GTM flow. Size the market the client chose in step 3 using Viktor's TAM-SAM-SOM framework — computed BOTH top-down (public market data, cut to the relevant slice) and bottom-up (target accounts x annual spend on the agency's service), then reconciled. Sizes by account tier (1/2/3 from step 3) and notes growth. The TAM is spend on the AGENCY'S service (e.g. AI automation), not the size of the client's end-market. Stage-adaptive depth. Use when the user asks TAM SAM SOM, market sizing, розмір ринку, скільки грошей у ніші, market research, or right after market/ICP selection. Writes to Notion in Ukrainian.
 argument-hint: "(reads the recommended market + tiers from the step-3 Notion page)"
 ---

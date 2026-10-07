@@ -1,5 +1,5 @@
 ---
-name: 10-materials-plan
+name: gtm-materials-plan
 description: Step 10 of the GTM flow. Plan the marketing materials/content as a SCORED inventory mapped to the buyer journey — each asset gets a status (To-Do/In progress/Done), a quality score (0/1/2) and an overall readiness percentage, plus how-to-create (which framework/step produces it) and an interface breakdown (website sections, LinkedIn profile, cold email). Recommendations only (inventory + gap + overshoot/undershoot + 3-5 actions), stage-adaptive via the 22-materials-by-5-stages matrix. Use when the user asks materials, content plan, які матеріали потрібні, content audit, asset inventory, readiness score, что создавать. Writes to Notion in Ukrainian.
 argument-hint: "(reads stage + buyer journey + ICP/positioning/VP/offers from steps 2-9 in Notion)"
 ---

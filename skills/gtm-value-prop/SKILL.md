@@ -1,5 +1,5 @@
 ---
-name: 07-value-prop
+name: gtm-value-prop
 description: Step 7 of the GTM flow (right after the positioning step 06, which it CONSUMES — anchor/enemy/category/statement come from 06, not reinvented here). Build the value proposition as a full VP canvas that STARTS from the market problem — The Market (insight/what's changing -> high-level problem), then the ICP problem chain (current solution -> limitations -> ordered problems #1..#N -> dream outcome), competitive alternatives, your service (category -> capabilities -> features), and the value prop (benefits as reversal of problems, social/emotional benefit, why-to-buy, social proof, why-you, why-now/cost-of-inaction, objections + handling). Synthesizes into a one-line VP statement + positioning category + Anti-VP. Customer language. Stage-adaptive. Use when the user asks value prop, VP, проблема ринку, market problem, messaging, positioning, ціннісна пропозиція. Writes to Notion in Ukrainian.
 argument-hint: "(reads positioning 06 + market/persona/pains 01-03 in Notion)"
 ---

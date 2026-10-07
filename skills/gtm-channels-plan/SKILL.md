@@ -1,5 +1,5 @@
 ---
-name: 11-channels-plan
+name: gtm-channels-plan
 description: Step 11 of the GTM flow. Recommend which lead-gen channels to go into, driven by the stage, the SMF gap (usually L), where the ICP/persona actually hangs out (from 03), and the buyer journey (09). Picks a primary channel plus 1-2 tests for early stages, with per-channel role, fit rationale, data source / how to reach, effort/cost, first action and KPI, plus what NOT to turn on yet. Recommendations only, stage-adaptive. Use when the user asks канали, lead gen channels, де брати ліди, distribution, outreach channels, where to find prospects. Writes to Notion in Ukrainian.
 argument-hint: "(reads stage + SMF gap + persona + journey from steps 2-9 in Notion)"
 ---

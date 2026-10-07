@@ -9,7 +9,7 @@ description: >-
   DOCX, PDF or a connected call-recording tool. Under 5 calls = directional. Use for
   "analyse my calls", "what are buyers saying", "build a persona from transcripts",
   "розбери транскрипти", "аналіз дзвінків", "що кажуть клієнти на дзвінках",
-  "мова клієнта". Feeds 03-market-icp-persona, 06-positioning,
+  "мова клієнта". Feeds gtm-market-icp-persona, gtm-positioning,
   persona-builder and sequence-writer.
   NOT for prep before one booked call (meeting-prep), NOT for outbound reply batches
   (reply-audit), NOT for personas without call data (persona-builder).
@@ -153,8 +153,8 @@ Messaging · ICP · Offer · Discovery · Objection handling
 ## Hand-offs
 
 - Persona cards for outbound: if installed, `persona-builder` (pack `outbound-engine-skills`)
-- ICP tiers and personas in the GTM flow: `03-market-icp-persona` (this pack)
-- Positioning built on buyer language: `06-positioning` (this pack)
+- ICP tiers and personas in the GTM flow: `gtm-market-icp-persona` (this pack)
+- Positioning built on buyer language: `gtm-positioning` (this pack)
 - Sequences using the language bank: if installed, `sequence-writer` (pack `outbound-engine-skills`)
 - Objection replies: if installed, `reply-objection-handler` (pack `outbound-engine-skills`)
 

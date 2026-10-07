@@ -1,5 +1,5 @@
 ---
-name: 03-market-icp-persona
+name: gtm-market-icp-persona
 description: Step 3 of the GTM flow and CHECKPOINT 2 (Market -> ICP -> Persona). Build the ICP top-down in three levels for an IT agency cold-audit — first propose the 3 best target markets the client could pursue (stage 0-1 clients do not yet know where to knock), then 3 account tiers (Tier 1/2/3 = A/B/C, where 1/A is the largest), then the buyer personas (decision-maker + champion/user) with JTBD, buying process, buying context and triggers, plus an Anti-ICP. Stage-adaptive depth; personas go deeper from stage 2+. Use when the user asks обери ринок, цільові ринки, побудуй ICP, ідеальний клієнт, персона, who to target, or right after the stage gate. Writes to Notion in Ukrainian.
 argument-hint: "(reads Snapshot + Stage from the client's Notion page)"
 ---
@@ -16,7 +16,7 @@ Cold audit → це гіпотеза з offer + мови клієнта + тех
 **Market-Problem Map** (Pain × Ease-of-sale × Ease-of-impl) · GTM-сегментація (JTBD/pains/alternatives/values) ·
 **DMU** + **Anti-persona** · validation confidence-ladder (interviews→presale).
 Формат полів персон — за ICP-шаблоном Viktor'а (Ideal Company / DM / User / Anti-ICP).
-(Цей крок поглинув колишній `04-personas`: персони — рівень 3 тут.)
+(Окремого кроку для персон немає: персони — рівень 3 тут.)
 
 ## Реюз
 - `icp-builder` (outbound-engine-skills) / `account-dossier` (account-management-skills) для синтезу;

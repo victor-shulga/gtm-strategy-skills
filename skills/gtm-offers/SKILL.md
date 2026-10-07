@@ -1,5 +1,5 @@
 ---
-name: 08-offers
+name: gtm-offers
 description: Step 8 of the GTM flow. Turn the chosen market, ICP, tiers and VP into concrete offers — an offer ladder (hook/free -> entry/paid pilot -> core -> continuity) plus Grand-Slam offer cards (dream outcome, mechanism/what's included, measurable outcome, speed, effort removed, proof, price structure, risk reversal, CTA) and a lightweight validation plan. Stage-adaptive — at stage 0-1 it produces 1 core plus 1 entry offer. Use when the user asks офери, offer, що продавати, packaging, pricing, offer ladder, grand slam, use cases. Writes to Notion in Ukrainian.
 argument-hint: "(reads market/tiers/persona + positioning + VP + pains from steps 3-7 in Notion)"
 ---

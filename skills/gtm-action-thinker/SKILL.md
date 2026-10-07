@@ -8,8 +8,8 @@ description: >-
   the bigger version if it passes, and an execution plan with owner, date and metric.
   Challenger tone, clear verdict. Use for "what do you think of this idea", "stress-test
   this", "poke holes", "is this a good GTM move", "розбери ідею", "стрес-тест",
-  "що може піти не так", "челендж ідеї", "перевір план". Called by 06-positioning (test
-  the angle) and 13-action-plan (test the plan before it is final).
+  "що може піти не так", "челендж ідеї", "перевір план". Called by gtm-positioning (test
+  the angle) and gtm-action-plan (test the plan before it is final).
   NOT for generating ideas (hypothesis-builder, hypo-generator), NOT for ranking a list
   of hypotheses (hypothesis-scoring), NOT for post-launch diagnostics (outbound-analyst).
 ---
@@ -33,8 +33,8 @@ For everything else, state your assumption in one line and proceed. Useful conte
 | Called from | Mode | Output |
 |---|---|---|
 | User directly | Full | All sections below |
-| 06-positioning | Angle test | Steps 1 to 4 plus verdict, applied to the positioning angle |
-| 13-action-plan | Plan test | Steps 2, 3, 4 and 7 run across the plan's top 3 to 5 initiatives, plus verdict per initiative |
+| gtm-positioning | Angle test | Steps 1 to 4 plus verdict, applied to the positioning angle |
+| gtm-action-plan | Plan test | Steps 2, 3, 4 and 7 run across the plan's top 3 to 5 initiatives, plus verdict per initiative |
 
 ## Step 1. Rewrite the idea as a bet
 
@@ -159,7 +159,7 @@ Bigger version, plus a contrarian variant when viable
 ## Hand-offs
 
 - Turning a passed test into a full hypothesis card: if installed, `hypothesis-builder` (pack `outbound-engine-skills`) or `hypothesis-scoring` (pack `gtm-skills`)
-- Back to the calling step: `06-positioning` or `13-action-plan` (this pack)
+- Back to the calling step: `gtm-positioning` or `gtm-action-plan` (this pack)
 - Risk register for a larger plan: `risk-assessment` (this pack)
 
 ## Credits

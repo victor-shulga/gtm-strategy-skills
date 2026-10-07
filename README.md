@@ -31,19 +31,19 @@
 | #  | Скіл | Призначення | Гейт |
 |----|------|-------------|------|
 | 0  | `gtm-run` | Оркестратор: веде флоу, тримає Notion-сторінку клієнта, передає контекст | — |
-| 1  | `01-intake` | URL → скрейп сайту → Company Snapshot | — |
-| 2  | `02-stage-diagnostic` | Стадія 0–5 + SMF-діра + 3 discovery-питання | **GATE 1** |
-| 3  | `03-market-icp-persona` | Ринки (топ-3) → Тіри (1/2/3) → Персони + Anti-ICP | **GATE 2** |
-| 4  | `04-market-sizing` | TAM/SAM/SOM (top-down + bottom-up), по тірах | — |
-| 5  | `05-competitor-gap` | Competitor matrix + GAP + whitespace | — |
-| 6  | `06-positioning` | Вісь+анкер+ворог, stage-gated + Z1.4 maturity | **GATE 2.5** |
-| 7  | `07-value-prop` | VP canvas (споживає positioning) | — |
-| 8  | `08-offers` | Offer ladder + Grand Slam cards | — |
-| 9  | `09-buyer-journey` | Карта buyer's journey + touchpoints | — |
-| 10 | `10-materials-plan` | Матриця 22×5: inventory + gap (рекомендації) | — |
-| 11 | `11-channels-plan` | Канали лідгену під стадію + SMF | — |
-| 12 | `12-docs-plan` | Матриця 47×7: inventory + gap (рекомендації) | — |
-| 13 | `13-action-plan` | **30-90-180** з (Стадія + SMF + AGA) | **GATE 3** |
+| 1  | `gtm-intake` | URL → скрейп сайту → Company Snapshot | — |
+| 2  | `gtm-stage-diagnostic` | Стадія 0–5 + SMF-діра + 3 discovery-питання | **GATE 1** |
+| 3  | `gtm-market-icp-persona` | Ринки (топ-3) → Тіри (1/2/3) → Персони + Anti-ICP | **GATE 2** |
+| 4  | `gtm-market-sizing` | TAM/SAM/SOM (top-down + bottom-up), по тірах | — |
+| 5  | `gtm-competitor-gap` | Competitor matrix + GAP + whitespace | — |
+| 6  | `gtm-positioning` | Вісь+анкер+ворог, stage-gated + Z1.4 maturity | **GATE 2.5** |
+| 7  | `gtm-value-prop` | VP canvas (споживає positioning) | — |
+| 8  | `gtm-offers` | Offer ladder + Grand Slam cards | — |
+| 9  | `gtm-buyer-journey` | Карта buyer's journey + touchpoints | — |
+| 10 | `gtm-materials-plan` | Матриця 22×5: inventory + gap (рекомендації) | — |
+| 11 | `gtm-channels-plan` | Канали лідгену під стадію + SMF | — |
+| 12 | `gtm-docs-plan` | Матриця 47×7: inventory + gap (рекомендації) | — |
+| 13 | `gtm-action-plan` | **30-90-180** з (Стадія + SMF + AGA) | **GATE 3** |
 | — | `gtm-audit` | **Самостійний аудит на 23 критерії**: 4 блоки з вагами, бал 0–4 з доказом, бенд Critical/Weak/Working/System, три діри, перші 30 днів. Точка входу, коли потрібна оцінка, а не стратегія | — |
 
 > **v0.4.0:** додано самостійний **`gtm-audit`** — аудит на 23 критерії (Команда 20 · Процеси 30 · Дані 25 · Інтерфейси 25), шкала зрілості 0–4, бенд і план на 30 днів. Працює без Notion і без решти флоу.
@@ -111,6 +111,16 @@ claude --plugin-dir ./gtm-strategy-skills
 ```
 Зміни підхоплюються `/reload-plugins`. Або скопіюй папку в `~/.claude/skills/`.
 
+**Оновлення зі старої версії (номери в назвах, до 0.7.0).** 07.10.2026 кроки отримали імена з префіксом паку
+замість номерів: `01-intake` → `gtm-intake`, `02-stage-diagnostic` → `gtm-stage-diagnostic`,
+`03-market-icp-persona` → `gtm-market-icp-persona`, `04-market-sizing` → `gtm-market-sizing`,
+`05-competitor-gap` → `gtm-competitor-gap`, `06-positioning` → `gtm-positioning`, `07-value-prop` → `gtm-value-prop`,
+`08-offers` → `gtm-offers`, `09-buyer-journey` → `gtm-buyer-journey`, `10-materials-plan` → `gtm-materials-plan`,
+`11-channels-plan` → `gtm-channels-plan`, `12-docs-plan` → `gtm-docs-plan`, `13-action-plan` → `gtm-action-plan`.
+Порядок кроків той самий, його веде `gtm-run`. Щоб оновитися, запустіть ту саму команду встановлення ще раз
+(`npx skills add victor-shulga/gtm-strategy-skills` або `/plugin marketplace update gtm-strategy-skills`).
+Старі теки `01-intake` … `13-action-plan` у `~/.claude/skills/` можна видалити.
+
 ---
 
 ## Залежності та інтеграції
@@ -121,8 +131,8 @@ claude --plugin-dir ./gtm-strategy-skills
 |---|---|---|---|
 | `WebFetch` + Bash (`curl`, `grep`) | Парсинг сайту агенції: послуги, ICP, копірайт, кейси | **Вбудовано** — без сетапу | — |
 | **Notion** (MCP) | Запис фінальних артефактів стратегії у Notion (основний deliverable) | Дуже бажана. Без неї — fallback у локальні `.md` у `gtm-output/` (див. `reference/notion-schema.md`) | Підключити Notion MCP / OAuth |
-| **Apify** (MCP) | Скрейп JS-важких сайтів + LinkedIn-команда (роестр, headcount, 6м/1р/2р ріст, median tenure) у кроці 01-intake | Опційно | Apify MCP / `APIFY_TOKEN` + cookie `linkedin_li_at` (див. `userConfig` у `plugin.json`) |
-| **Ahrefs / SimilarWeb** (MCP) | Трафік/SEO-овервʼю в 01-intake (обовʼязковий у снапшоті) | Опційно, але рекомендовано | Ahrefs MCP (Trial=0 units → fallback SimilarWeb lite) |
+| **Apify** (MCP) | Скрейп JS-важких сайтів + LinkedIn-команда (роестр, headcount, 6м/1р/2р ріст, median tenure) у кроці gtm-intake | Опційно | Apify MCP / `APIFY_TOKEN` + cookie `linkedin_li_at` (див. `userConfig` у `plugin.json`) |
+| **Ahrefs / SimilarWeb** (MCP) | Трафік/SEO-овервʼю в gtm-intake (обовʼязковий у снапшоті) | Опційно, але рекомендовано | Ahrefs MCP (Trial=0 units → fallback SimilarWeb lite) |
 | Наявні GTM-скіли (icp-builder, offer-factory, competitor-finder, niche-data-finder…) | Деякі кроки **реюзають** їх, якщо встановлені | Опційно | Якщо їх немає — крок виконує логіку inline |
 
 LLM-ключ окремо не потрібен — усе працює на самому Claude Code. Без Apify/Ahrefs кроки не падають:

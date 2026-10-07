@@ -1,5 +1,5 @@
 ---
-name: 06-positioning
+name: gtm-positioning
 description: >-
   Step 6 of the GTM flow (after competitor+GAP, before value prop). Builds the agency's positioning
   from the whitespace found in step 05, gated by the agency's stage (0-4). Runs an 8-step spine: best-
@@ -36,7 +36,7 @@ argument-hint: "(reads competitor/whitespace 05 + market/ICP 03 + stage 02 in No
 
 ## Принцип «Propose-by-default» (наскрізний)
 Це cold audit — клієнт часто **не може сам назвати** ворога, анкер чи best-customer. Правило:
-**порожнє поле = не «—», а гіпотеза від скіла**, виведена з сайту / кейсів / 01-verbatim / 05-whitespace,
+**порожнє поле = не «—», а гіпотеза від скіла**, виведена з сайту / кейсів / verbatim-цитат з `gtm-intake` / whitespace з `gtm-competitor-gap`,
 **явно маркована**: `(гіпотеза · впевненість low/med/high · підстава: …)` — той самий стиль, що «гіпотеза
 стадії» в `agency-stages.md`. Завжди давай **1 основний + 1 альтернативу** (не 5). Гіпотези → у блок
 «Джерела / припущення» і на **GATE 2.5** як «ось мій варіант — підтверджуєш чи заміняєш?».
@@ -133,7 +133,7 @@ alternatives (лінк на 05) · **вісь + анкер + ВОРОГ** (з о
 ## GATE 2.5 — чекпоінт (легкий)
 Перед VP/offers покажи: вісь + анкер + ворог (1 рядок кожне) · statement + 3 benefits · maturity зараз→ціль.
 Гіпотези (де клієнт мовчав) подавай як «ось мій варіант — підтверджуєш чи заміняєш?». Питання «say no»:
-«від якої роботи готовий відмовлятись?». Лише після «так» оркестратор іде в 07-value-prop.
+«від якої роботи готовий відмовлятись?». Лише після «так» оркестратор іде в gtm-value-prop.
 
 ## Definition of Done
 - Стадію прочитано з 02; гейт застосовано (стиль/анкер/пруф ≤ стелі).

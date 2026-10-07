@@ -1,5 +1,5 @@
 ---
-name: 12-docs-plan
+name: gtm-docs-plan
 description: Step 12 of the GTM flow. Recommend which INTERNAL documents/playbooks to formalize, from the 47-docs-by-5-stages matrix (Doc 2), as a scored inventory (status, quality score 0/1/2, readiness percentage) with how-to-create and AGA mapping. Key insight - several strategy docs are already produced by this GTM flow (ICP=03, competitive=05, positioning=06, value prop=07, buyer journey=09), so mark them as covered. Recommendations only, stage-adaptive (stage 0 = near-zero, do not formalize prematurely). Use when the user asks внутрішні документи, playbooks, SOP, documentation, what docs to write, sales playbook, onboarding docs. Writes to Notion in Ukrainian.
 argument-hint: "(reads stage + prior GTM artifacts from steps 2-11 in Notion)"
 ---

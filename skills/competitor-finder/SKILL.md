@@ -10,9 +10,9 @@ description: >-
   with X" objections.
   Use for "who are our competitors", "competitor map", "battlecard", "how do we beat X",
   "alternatives to us", "конкуренти", "хто наші конкуренти", "карта конкурентів",
-  "баттлкард", "чим ми відрізняємось". Feeds 05-competitor-gap and 06-positioning.
-  NOT for gap scoring and whitespace (05-competitor-gap), NOT for the positioning
-  statement (06-positioning), NOT for SaaS feature comparisons.
+  "баттлкард", "чим ми відрізняємось". Feeds gtm-competitor-gap and gtm-positioning.
+  NOT for gap scoring and whitespace (gtm-competitor-gap), NOT for the positioning
+  statement (gtm-positioning), NOT for SaaS feature comparisons.
 ---
 
 # Competitor Finder
@@ -23,8 +23,8 @@ Answer in the user's language. Every factual line carries a source URL or the la
 
 ## Where it sits
 
-- **05-competitor-gap** calls this skill to collect the players, prices and reviews, then does the gap scoring and whitespace itself.
-- **06-positioning** reads the artifact this skill produced (through 05). If a map from the last 90 days exists, reuse it and only refresh what changed.
+- **gtm-competitor-gap** calls this skill to collect the players, prices and reviews, then does the gap scoring and whitespace itself.
+- **gtm-positioning** reads the artifact this skill produced (through 05). If a map from the last 90 days exists, reuse it and only refresh what changed.
 
 ## Inputs (ask once, in one message)
 
@@ -144,8 +144,8 @@ Scope: [full map / battlecard vs X] · Sources checked: [N] · Lost-deal data: [
 
 ## Hand-offs
 
-- Gap scoring and whitespace: `05-competitor-gap` (this pack)
-- Positioning statement and enemy angle: `06-positioning` (this pack)
+- Gap scoring and whitespace: `gtm-competitor-gap` (this pack)
+- Positioning statement and enemy angle: `gtm-positioning` (this pack)
 - Objection replies in live threads: if installed, `reply-objection-handler` (pack `outbound-engine-skills`)
 - Cold copy built on the angles: if installed, `sequence-writer` (pack `outbound-engine-skills`) or `angle-finder` (pack `outbound-engine-skills`)
 - Deeper profile of one rival: if installed, `competitor-profiling` (pack `marketing-engine-skills`)

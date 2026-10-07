@@ -1,5 +1,5 @@
 ---
-name: 01-intake
+name: gtm-intake
 description: Step 1 of the GTM flow. Scrape an IT agency website (cold audit) and produce a structured Company Snapshot — services, claims, positioning, proof and case studies, pricing signals, team-size hints, tech, target hints, and the agency own customer language. Use when starting a GTM strategy from a URL, or when the user asks to scan or scrape the agency site, intake the company, or make a company snapshot. Writes the snapshot to the client Notion page in Ukrainian.
 argument-hint: "<agency-website-url>"
 ---
@@ -37,7 +37,7 @@ argument-hint: "<agency-website-url>"
    - **Value Proposition — X out of 4** (value equation Hormozi): (1) Dream Outcome аудиторії;
      (2) пруфи (perceived likelihood); (3) Time Delay to get the result; (4) Effort & Sacrifice
      (що треба від клієнта / наскільки безболісно).
-   Це cold-скоринг «як є» — сировина для `06-positioning` (там enemy-кут і Z1.4 self-score),
+   Це cold-скоринг «як є» — сировина для `gtm-positioning` (там enemy-кут і Z1.4 self-score),
    не фінальний вердикт.
 4. **Цільові натяки:** індустрії/розмір клієнтів/типи проєктів, які згадуються.
 5. **Proof:** кейси (скільки, чи з $-результатами, named/анонімні), лого клієнтів, відгуки, нагороди,
@@ -84,12 +84,12 @@ argument-hint: "<agency-website-url>"
       платна підписка $15/міс, НЕ використовувати.
     - **Інтерпретація обов'язкова:** трафік росте/плоский/падає; конвертується чи ні
       (lead magnets? CTA?); чи збігається гео з цільовим ринком. Це сировина для SMF-діри L
-      та `11-channels-plan`.
+      та `gtm-channels-plan`.
 
 ## Стадійні проксі-сигнали
 Окремим блоком познач, які зі знайдених ознак вказують на стадію 0/1/2/3/4
 (див. `${CLAUDE_PLUGIN_ROOT}/reference/agency-stages.md`, розділ 1 — cold-audit проксі-сигнали).
-Це **сировина для `02-stage-diagnostic`**, тут стадію ще не оголошуй.
+Це **сировина для `gtm-stage-diagnostic`**, тут стадію ще не оголошуй.
 
 ## Вихід (Notion)
 Створи/онови під-сторінку **«01 · Company Snapshot»** на сторінці клієнта (див.

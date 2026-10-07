@@ -1,5 +1,5 @@
 ---
-name: 05-competitor-gap
+name: gtm-competitor-gap
 description: Step 5 of the GTM flow (right after market sizing, BEFORE positioning and offers). Map direct and indirect competitors (incl. platform/CRM-native, incumbent/human answering, DIY build, and do-nothing) into a matrix, then run a GAP analysis — where the agency wins, is at parity, or is behind — and surface positioning whitespace the agency can own. Informs positioning (06) and offers (08) so they are built from the gap with no rework. Stage-adaptive. Use when the user asks конкуренти, competitor analysis, gap analysis, battlecards, how do we differentiate, alternatives, whitespace, red ocean. Writes to Notion in Ukrainian.
 argument-hint: "(reads market/ICP + sizing from steps 3-4 in Notion)"
 ---

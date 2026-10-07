@@ -1,5 +1,5 @@
 ---
-name: 13-action-plan
+name: gtm-action-plan
 description: Final step of the GTM flow and CHECKPOINT 3. Synthesize all prior artifacts into a 30-90-180 day action plan for an IT agency, derived from the diagnosed stage plus the cheapest Sales-Market-Fit gap (L, Cr, $, #) plus the AGA module mapping M1-M5. Produces stage-appropriate task cards with owner, effort, KPI, plus an overshoot kill and undershoot build list. Use when the user asks for екшн-план, 30-90-180, що робити далі, roadmap, or at the end of the GTM flow. Writes to Notion in Ukrainian.
 argument-hint: "(reads stage, SMF gap, ICP and other artifacts from the client's Notion page)"
 ---

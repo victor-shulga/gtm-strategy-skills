@@ -8,9 +8,9 @@ description: >-
   Every number is sourced and confidence-rated, unsourced claims are parked as hypotheses,
   and each data point becomes a per-account trigger plus an outbound opener. Use for "research the market for X", "find urgency in this vertical", "why would
   they buy now", "EDP", "pain in [vertical]", "дослідження ринку", "чому їм терміново",
-  "тригери терміновості", "біль сегмента", "оціни ринок". Used by 03-market-icp-persona and
-  04-market-sizing.
-  NOT for TAM/SAM/SOM math (04-market-sizing), NOT for the competitor map
+  "тригери терміновості", "біль сегмента", "оціни ринок". Used by gtm-market-icp-persona and
+  gtm-market-sizing.
+  NOT for TAM/SAM/SOM math (gtm-market-sizing), NOT for the competitor map
   (competitor-finder), NOT for live signal detection (signal-research).
 ---
 
@@ -22,9 +22,9 @@ This skill finds those facts for one vertical or segment, proves them with sourc
 
 Answer in the user's language.
 
-## Boundary with 04-market-sizing
+## Boundary with gtm-market-sizing
 
-This skill can record numbers that describe the market (number of firms, growth rate) when they appear in sources, but it does not do the sizing math. Pass any such figures with their URLs to `04-market-sizing`, which owns TAM/SAM/SOM.
+This skill can record numbers that describe the market (number of firms, growth rate) when they appear in sources, but it does not do the sizing math. Pass any such figures with their URLs to `gtm-market-sizing`, which owns TAM/SAM/SOM.
 
 ## Inputs (ask once, in one message)
 
@@ -116,7 +116,7 @@ Confidence: [high / medium / low] because [reason]
 ## Hypotheses to verify
 | Candidate | What is missing | How to verify |
 
-## Figures handed to 04-market-sizing
+## Figures handed to gtm-market-sizing
 | Figure | Value | Source |
 
 ## Sources
@@ -136,8 +136,8 @@ Confidence rule of thumb: high = A source and visible per-account trigger; mediu
 
 ## Hand-offs
 
-- Market choice, ICP tiers and personas: `03-market-icp-persona` (this pack)
-- Sizing: `04-market-sizing` (this pack)
+- Market choice, ICP tiers and personas: `gtm-market-icp-persona` (this pack)
+- Sizing: `gtm-market-sizing` (this pack)
 - Building detection for the account triggers: if installed, `signal-research` (pack `outbound-engine-skills`)
 - Turning EDPs into tested hypotheses and copy: if installed, `hypothesis-builder` and `sequence-writer` (pack `outbound-engine-skills`), or `angle-finder` (same pack)
 - Finding data sources for a niche trigger: if installed, `niche-data-finder` (pack `outbound-engine-skills`)

@@ -1,5 +1,5 @@
 ---
-name: 09-buyer-journey
+name: gtm-buyer-journey
 description: Step 9 of the GTM flow. Map the buyer's journey for the chosen persona — stages from unaware to advocacy (unaware -> problem-aware -> solution-aware -> vendor consideration -> decision/pilot -> onboarding -> expansion) with, per stage, the buyer mindset/questions, the trigger that advances them, the main objection, the touchpoint/content that fits, and the channel. Feeds materials (10) and channels (11). Stage-adaptive. Use when the user asks buyer journey, customer journey, шлях покупця, awareness consideration decision, funnel stages, touchpoints. Writes to Notion in Ukrainian.
 argument-hint: "(reads persona + positioning + VP + competitor + offers from steps 3-8 in Notion)"
 ---

@@ -25,12 +25,12 @@ value-prop canvas, 4 pricing inputs, 7 GTM-motions, proof-мілстоуни, ex
    пропускай/спрощуй важкі кроки (TAM, deep competitor, category, частину матеріалів/доків).
 2. **Checkpointed.** Зупиняйся на **4 чекпоінтах** (3 повних гейти + легкий GATE 2.5) і чекай
    підтвердження користувача, перш ніж іти далі:
-   - **GATE 1** — після `02-stage-diagnostic` (стадія + SMF + 3 discovery-питання).
-   - **GATE 2** — після `03-icp` (ICP / Tier A).
-   - **GATE 2.5** — після `06-positioning` (легкий): вісь + анкер + ворог, statement + 3 benefits,
+   - **GATE 1** — після `gtm-stage-diagnostic` (стадія + SMF + 3 discovery-питання).
+   - **GATE 2** — після `gtm-market-icp-persona` (ICP / Tier A).
+   - **GATE 2.5** — після `gtm-positioning` (легкий): вісь + анкер + ворог, statement + 3 benefits,
      maturity зараз→ціль. Питання «цей кут правильний? від якої роботи готовий відмовлятись?». Бо
      позиціонування — батько VP/offers/материалів: помилка тут множиться вниз по флоу.
-   - **GATE 3** — після `13-action-plan` (фінальний 30-90-180).
+   - **GATE 3** — після `gtm-action-plan` (фінальний 30-90-180).
    На гейті: коротко покажи результат, познач ключові **припущення cold-audit**, і запитай
    «Підтверджуєш / що поправити?». Не йди далі без відповіді.
 3. **Reuse.** Кожен крок-скіл сам викликає наявні скіли Viktor'а де доречно. Не дублюй їхню логіку.
@@ -43,19 +43,19 @@ value-prop canvas, 4 pricing inputs, 7 GTM-motions, proof-мілстоуни, ex
 
 | Крок | Скіл | Гейт |
 |------|------|------|
-| 1 | `gtm-strategy:01-intake` | — |
-| 2 | `gtm-strategy:02-stage-diagnostic` | **GATE 1** |
-| 3 | `gtm-strategy:03-market-icp-persona` (Ринки → Тіри → Персони) | **GATE 2** |
-| 4 | `gtm-strategy:04-market-sizing` (TAM-SAM-SOM, по тірах) | — |
-| 5 | `gtm-strategy:05-competitor-gap` (whitespace → живить positioning) | — |
-| 6 | `gtm-strategy:06-positioning` (вісь+анкер+ворог, stage-gated) | **GATE 2.5** |
-| 7 | `gtm-strategy:07-value-prop` (споживає positioning) | — |
-| 8 | `gtm-strategy:08-offers` | — |
-| 9 | `gtm-strategy:09-buyer-journey` | — |
-| 10 | `gtm-strategy:10-materials-plan` | — |
-| 11 | `gtm-strategy:11-channels-plan` | — |
-| 12 | `gtm-strategy:12-docs-plan` | — |
-| 13 | `gtm-strategy:13-action-plan` | **GATE 3** |
+| 1 | `gtm-strategy:gtm-intake` | — |
+| 2 | `gtm-strategy:gtm-stage-diagnostic` | **GATE 1** |
+| 3 | `gtm-strategy:gtm-market-icp-persona` (Ринки → Тіри → Персони) | **GATE 2** |
+| 4 | `gtm-strategy:gtm-market-sizing` (TAM-SAM-SOM, по тірах) | — |
+| 5 | `gtm-strategy:gtm-competitor-gap` (whitespace → живить positioning) | — |
+| 6 | `gtm-strategy:gtm-positioning` (вісь+анкер+ворог, stage-gated) | **GATE 2.5** |
+| 7 | `gtm-strategy:gtm-value-prop` (споживає positioning) | — |
+| 8 | `gtm-strategy:gtm-offers` | — |
+| 9 | `gtm-strategy:gtm-buyer-journey` | — |
+| 10 | `gtm-strategy:gtm-materials-plan` | — |
+| 11 | `gtm-strategy:gtm-channels-plan` | — |
+| 12 | `gtm-strategy:gtm-docs-plan` | — |
+| 13 | `gtm-strategy:gtm-action-plan` | **GATE 3** |
 
 > **v0.3.0:** усі кроки `01`–`13` реалізовані (positioning виокремлено в крок 06); оркестратор веде
 > повний флоу з 4 чекпоінтами (GATE 1 / 2 / 2.5 / 3).
@@ -69,15 +69,15 @@ value-prop canvas, 4 pricing inputs, 7 GTM-motions, proof-мілстоуни, ex
 1. **Setup.** Визнач робочу Notion-локацію: `notion-search` на «GTM Strategy». Якщо база є — використай;
    якщо ні — створи базу за схемою з `notion-schema.md` (спершу спитай користувача, де її розмістити —
    parent page/teamspace). Створи/знайди сторінку клієнта за URL.
-2. **Крок 1** — виклич `01-intake` з URL. Отримай Company Snapshot.
-3. **Крок 2** — виклич `02-stage-diagnostic`. → **GATE 1**: покажи стадію (з рівнем впевненості),
+2. **Крок 1** — виклич `gtm-intake` з URL. Отримай Company Snapshot.
+3. **Крок 2** — виклич `gtm-stage-diagnostic`. → **GATE 1**: покажи стадію (з рівнем впевненості),
    SMF-діру і 3 discovery-питання. Чекай підтвердження/правок стадії.
 4. Після підтвердження стадії — **зафіксуй стадію** у властивостях сторінки клієнта і далі веди всі кроки
    **адаптивно під цю стадію**.
-5. **Кроки 3–12** — по черзі. Після `03-market-icp-persona` → **GATE 2** (персони вже всередині цього
-   кроку — окремого `04-personas` немає). Після `06-positioning` → **GATE 2.5** (підтвердь анкер/ворог/
+5. **Кроки 3–12** — по черзі. Після `gtm-market-icp-persona` → **GATE 2** (персони вже всередині цього
+   кроку — окремого кроку для персон немає). Після `gtm-positioning` → **GATE 2.5** (підтвердь анкер/ворог/
    statement перед VP/offers). Пропускай/спрощуй кроки за правилами стадії.
-6. **Крок 13** — виклич `13-action-plan`. → **GATE 3**: покажи 30-90-180. Чекай фінального підтвердження.
+6. **Крок 13** — виклич `gtm-action-plan`. → **GATE 3**: покажи 30-90-180. Чекай фінального підтвердження.
 7. **Фініш.** Онови Status сторінки клієнта = «Plan ready». Дай користувачу: лінк на Notion-сторінку,
    стадію, SMF-діру, AGA-фокус і топ-3 дії на 30 днів.
 
