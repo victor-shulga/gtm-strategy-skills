@@ -164,4 +164,4 @@ Bigger version, plus a contrarian variant when viable
 
 ## Credits
 
-Idea adapted from lemlist's public `gtm-action-thinker` skill (github.com/l3mpire/claude-skills); rewritten for B2B service companies.
+Idea adapted from a public outbound-skills collection; rewritten for B2B service companies.

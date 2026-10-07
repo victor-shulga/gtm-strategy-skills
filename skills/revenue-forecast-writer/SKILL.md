@@ -85,7 +85,7 @@ Tag every rate by source:
 | `assumption` (припущення) | an agreed guess, marked as such in every report until it is replaced by a measured rate |
 
 Benchmarks must carry their source. Two reference points for cold email, for example:
-- Instantly's published benchmark across its 2025 sending data puts the average cold email reply
+- A cold-email sending platform's published benchmark across its 2025 sending data puts the average cold email reply
   rate at about 3.4%.
 - The skill's author plans 2026 cold outbound for service companies at about 1.5% reply rate, with
   at most a fifth of replies positive (about 0.3% positive), based on his own campaigns. Tag this
@@ -169,4 +169,4 @@ this audience sees, and flag the divergence in every report. Do not merge them.
 ## Credits
 
 Built by Victor Shulga; the metrics pyramid is his planning template. The cold email reply-rate
-reference comes from Instantly's published cold email benchmark report (2025 data).
+reference comes from a cold-email sending platform's published benchmark report (2025 data).

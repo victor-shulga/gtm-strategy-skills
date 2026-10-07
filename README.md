@@ -65,7 +65,7 @@
 | `growth-planner` | інтерв'ю з власником блок за блоком → план зростання по каналах з тижневими числами (HTML-планер) |
 | `sales-hiring-brief` | профіль посади, скоркарта, інтерв'ю-кіт, тестове завдання, онбординг 30/60/90 |
 
-`competitor-finder`, `market-research-edp`, `persona-insights-analysis` і `gtm-action-thinker` написані наново; ідею взято з публічних скілів lemlist (кредит усередині кожного SKILL.md). Решта — авторські скіли Victor Shulga.
+`competitor-finder`, `market-research-edp`, `persona-insights-analysis` і `gtm-action-thinker` написані наново; ідею взято з публічної колекції аутбаунд-скілів (подяка всередині кожного SKILL.md). Решта — авторські скіли Victor Shulga.
 
 ## Планування й операції (3 окремі скіли)
 

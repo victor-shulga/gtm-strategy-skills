@@ -144,4 +144,4 @@ Confidence rule of thumb: high = A source and visible per-account trigger; mediu
 
 ## Credits
 
-Idea adapted from lemlist's public `market-research-edp` skill (github.com/l3mpire/claude-skills); rewritten for B2B service companies.
+Idea adapted from a public outbound-skills collection; rewritten for B2B service companies.

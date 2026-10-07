@@ -152,4 +152,4 @@ Scope: [full map / battlecard vs X] · Sources checked: [N] · Lost-deal data: [
 
 ## Credits
 
-Idea adapted from lemlist's public `competitor-finder` skill (github.com/l3mpire/claude-skills); rewritten for B2B service companies.
+Idea adapted from a public outbound-skills collection; rewritten for B2B service companies.

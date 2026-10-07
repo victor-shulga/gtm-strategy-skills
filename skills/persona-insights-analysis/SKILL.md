@@ -160,4 +160,4 @@ Messaging · ICP · Offer · Discovery · Objection handling
 
 ## Credits
 
-Idea adapted from lemlist's public `persona-insights-analysis` skill (github.com/l3mpire/claude-skills); rewritten for B2B service companies.
+Idea adapted from a public outbound-skills collection; rewritten for B2B service companies.
