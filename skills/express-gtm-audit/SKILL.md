@@ -75,8 +75,9 @@ only when the user supplies inside evidence (answers, exports, call notes).
 2. **Score** every criterion with 2–4 evidence bullets and a one-line verdict, using the tables
    in `references/rubric.md` (ICP, delivery process, case anatomy are mandatory tables).
 3. **Write the page** in the fixed order below. Then run the self-check list.
-4. **Deliver** as a single HTML file (the template in `references/template.html` if the pack
-   ships it, otherwise the structure below with the user's design tokens or neutral ones).
+4. **Deliver** as a single HTML file built on the page order below, with the user's design
+   tokens or neutral ones; a `<meta name="viewport">` tag and tables that scroll inside their
+   block on phones.
 
 ## Page order (fixed)
 
