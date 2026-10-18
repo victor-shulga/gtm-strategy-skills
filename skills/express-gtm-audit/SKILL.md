@@ -1,6 +1,6 @@
 ---
 name: express-gtm-audit
-description: Express audit of a B2B service company's GTM system from public data only (site, cases, review platforms, LinkedIn, search, AI answers, DNS). Scores 6 blocks of the GTM system (strategy, team, lead generation, sales, account management, processes) on 23 criteria, scale 1-5, «?» for what is not visible from outside; block score = mean of scored criteria. Output is one single-file HTML page in a fixed order - header with overall score and thesis, dashboard of 6 blocks with 3 headline findings, then block by block, each ending with a verdict, a «what to do» box and 2-3 questions for the call. Use when the user says express audit, експрес-аудит, оціни нашу агенцію ззовні, аудит перед дзвінком, audit this agency from the outside, score our GTM in 6 blocks, or when a course/homework asks for the 6-block self-audit. Not the weighted 23-criteria maturity audit (that is gtm-audit) and not a website UX audit.
+description: Express audit of a B2B service company's GTM system from public data only (site, cases, review platforms, LinkedIn, search, AI answers, DNS). Scores 6 blocks of the GTM system (strategy, team, lead generation, sales, account management, processes) on 24 criteria, scale 1-5, «?» for what is not visible from outside; block score = mean of scored criteria. Output is one single-file HTML page in a fixed order - header with overall score and thesis, dashboard of 6 blocks with 3 headline findings, then block by block, each ending with a verdict, a «what to do» box and 2-3 questions for the call. Use when the user says express audit, експрес-аудит, оціни нашу агенцію ззовні, аудит перед дзвінком, audit this agency from the outside, score our GTM in 6 blocks, or when a course/homework asks for the 6-block self-audit. Not the weighted 23-criteria maturity audit (that is gtm-audit) and not a website UX audit.
 argument-hint: "[company URL] (+ optional: competitor URLs, target market, anything already known)"
 ---
 
@@ -48,7 +48,7 @@ Block score = mean of its scored criteria, one decimal. Overall = mean of all sc
 Card colour: below 2,5 red · 2,5–3,4 amber · 3,5 and above green. Show the formula next to any
 composite number and say how many criteria were scored ("середнє по 20 критеріях").
 
-## The 6 blocks and 23 criteria
+## The 6 blocks and 24 criteria
 
 Full checklists, tables and sources are in `references/rubric.md`. Read it before scoring.
 
@@ -74,10 +74,25 @@ only when the user supplies inside evidence (answers, exports, call notes).
    SPF, DKIM selectors, DMARC policy, separate sending domains.
 2. **Score** every criterion with 2–4 evidence bullets and a one-line verdict, using the tables
    in `references/rubric.md` (ICP, delivery process, case anatomy are mandatory tables).
-3. **Write the page** in the fixed order below. Then run the self-check list.
+3. **Write the page** by copying `references/example-audit.html` (a finished, anonymised audit of a
+   software company, September 2026): keep its HTML, CSS and section order, replace every piece of
+   data with the audited company's. Do not redesign and do not start from a blank page. Then run
+   the self-check list.
 4. **Deliver** as a single HTML file built on the page order below, with the user's design
    tokens or neutral ones; a `<meta name="viewport">` tag and tables that scroll inside their
    block on phones.
+
+## Example (read before writing)
+
+`references/example-audit.html` is the etalon: a complete audit of a real software company with the
+company name removed (its neighbours stay named, they are public). Overall 2,7 / 5 across 20 scored
+criteria, 4 marked `?`. It shows what "enough evidence" looks like: the ICP table with three
+components, the 8-row delivery-process table, the 5-case anatomy table, a positioning map against five
+neighbours, an H2 per block that carries the conclusion with a number, and a call-questions box under
+every block. The same page is live at https://vs-express-audit-example.shoulga-v.workers.dev. A blank
+version for a founder filling the audit by hand, with block means computed on the fly, is at
+https://vs-express-audit-template.shoulga-v.workers.dev; this skill produces the filled page, not the
+blank one.
 
 ## Page order (fixed)
 
