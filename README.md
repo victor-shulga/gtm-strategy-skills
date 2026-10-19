@@ -153,3 +153,7 @@ bash scripts/validate.sh
 дір/дублів · оркестратор `gtm-run` посилається на кожен крок · описи YAML-безпечні (без лапок / `: `) ·
 JSON валідний і версії `plugin.json` ↔ `marketplace.json` збігаються. Той самий чек ганяє CI
 (`.github/workflows/ci.yml`) на кожен push/PR.
+
+---
+
+Built by [Victor Shulga](https://victorshulga.com), Fractional CRO for B2B service companies. Full skill stack: [victorshulga.com/stack](https://victorshulga.com/stack/).
