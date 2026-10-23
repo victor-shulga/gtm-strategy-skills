@@ -1,6 +1,6 @@
 ---
 name: express-gtm-audit
-description: Express audit of a B2B service company's GTM system from public data only (site, cases, review platforms, LinkedIn, search, AI answers, DNS). Scores 6 blocks of the GTM system (strategy, team, lead generation, sales, account management, processes) on 24 criteria, scale 1-5, «?» for what is not visible from outside; block score = mean of scored criteria. Output is one single-file HTML page in a fixed order - header with overall score and thesis, dashboard of 6 blocks with 3 headline findings, then block by block, each ending with a verdict, a «what to do» box and 2-3 questions for the call. Use when the user says express audit, експрес-аудит, оціни нашу агенцію ззовні, аудит перед дзвінком, audit this agency from the outside, score our GTM in 6 blocks, or when a course/homework asks for the 6-block self-audit. Not the weighted 23-criteria maturity audit (that is gtm-audit) and not a website UX audit.
+description: Express audit of a B2B service company's GTM system from public data only (site, cases, review platforms, LinkedIn, search, AI answers, DNS). Scores 6 blocks of the GTM system (strategy, team, lead generation, sales, account management, processes) on 24 criteria, scale 1-5, «?» for what is not visible from outside; block score = mean of scored criteria. Output is one single-file HTML page in a fixed order - a diagnosis header (which block is the main problem, big coloured score), 4 verdict tiles, a bowtie dashboard of the funnel with a donut per stage over the foundation tiles, then block by block in tables, each ending with a «what to do» line and questions for the call. Use when the user says express audit, експрес-аудит, оціни нашу агенцію ззовні, аудит перед дзвінком, audit this agency from the outside, score our GTM in 6 blocks, or when a course/homework asks for the 6-block self-audit. Not the weighted 23-criteria maturity audit (that is gtm-audit) and not a website UX audit.
 argument-hint: "[company URL] (+ optional: competitor URLs, target market, anything already known)"
 ---
 
@@ -23,8 +23,11 @@ Language of the document = language of the user. Company, tool and competitor na
   from the block mean, and turns into a call question. Never infer a score from "they probably
   have it".
 - **Torn between two scores: take the lower one.**
-- **Results first.** The page opens with the overall score and a 4–5 line thesis, then the
-  dashboard. Methodology never comes first.
+- **Results first, as a diagnosis.** H1 = «<Company>: головна проблема в <weakest block>», never a
+  topic and never a row of coloured numbers. Methodology never comes first.
+- **Less text.** Tables, tiles and charts over paragraphs. A tile's big text says what the fact
+  means («Офер готовий до продажу», «Кейси не відкриваються»); the numbers go in its caption.
+  A bare number in a tile says nothing.
 - **Every number has a source line** (page URL, review count and date, DNS record, post count
   and period). Anything derived is tagged as a conclusion.
 - **Confidentiality.** Never mention the author's other clients or their cases. Competitors of the
@@ -45,7 +48,10 @@ Language of the document = language of the user. Company, tool and competitor na
 | `?` | not visible from outside; not scored, becomes a call question |
 
 Block score = mean of its scored criteria, one decimal. Overall = mean of all scored criteria.
-Card colour: below 2,5 red · 2,5–3,4 amber · 3,5 and above green. Show the formula next to any
+Overall label (same buckets as the self-assessment tool): below 2 «Системи ще немає» · 2–2,9
+«Тримається на фаундері» (red) · 3–3,9 «Працює нерівно» (amber) · 4+ «Система працює» (green).
+Dashboard percentages = score ÷ 5 × 100: 90–100% норма · 80–89% майже норма · 50–79% увага ·
+below 50% проблема · grey «?» = not visible. Show the formula next to any
 composite number and say how many criteria were scored ("середнє по 20 критеріях").
 
 ## The 6 blocks and 24 criteria
@@ -90,37 +96,48 @@ and number-drift rule in `references/rubric.md`.
 
 ## Example (read before writing)
 
-`references/example-audit.html` is the etalon: a complete audit of a real software company with the
-company name removed (its neighbours stay named, they are public). Overall 2,7 / 5 across 20 scored
-criteria, 4 marked `?`. It shows what "enough evidence" looks like: the ICP table with three
-components, the 8-row delivery-process table, the 5-case anatomy table, a positioning map against five
-neighbours, an H2 per block that carries the conclusion with a number, and a call-questions box under
-every block. The same page is live at https://vs-express-audit-example.shoulga-v.workers.dev. A blank
-version for a founder filling the audit by hand, with block means computed on the fly, is at
+`references/example-audit.html` is the etalon (since 23.10.2026): a complete audit of a real 3D and
+motion studio for CleanTech, anonymised as «Studio X» (company, people, clients, cities, prices and one
+headline figure changed). Overall 3,1 / 5 «Працює нерівно» across 16 scored criteria, 8 marked `?`,
+site trust 57/100. It shows the diagnosis header, the verdict tiles, the bowtie dashboard, the
+«Розклад на складові» cards (Offer 6 · Value Proposition 4 · ICP 3), the delivery-process table, the
+case anatomy table, the trust track with its verification path, and a call-questions box under every
+block. Copy its HTML and CSS; the bowtie SVG and the cards are plain markup you fill with your numbers.
+The same page is live at https://vs-express-audit-example.shoulga-v.workers.dev. A blank version for a
+founder filling the audit by hand, with everything computed on the fly, is at
 https://vs-express-audit-template.shoulga-v.workers.dev; this skill produces the filled page, not the
 blank one.
 
 ## Page order (fixed)
 
-1. Header: company, date, "prepared from public data only", overall score, 4–5 line thesis that
-   names the weakest block and the first thing to fix.
-2. Dashboard: 6 block cards with scores and criteria pills, plus 3 headline findings with
-   numbers.
-3. Bridge: why strategy decides the rest (6 block scores as bars, strategy highlighted).
-4. Blocks 01–06. Each block: H2 = its conclusion with a number, criterion rows (score · evidence
-   · verdict), the mandatory tables where they belong, a "Що зробити" box, a "Не видно ззовні ·
-   питання на дзвінок" box with 2–3 questions.
-5. Trust track «Довіра до сайту»: H2 = conclusion with the 0–100 score, table of 8 criteria
-   (weight · score · what is visible), the formula line, a «Шлях перевірки» table (clicked → opened → ✓/✕),
-   a number-drift line, «Що зробити» and call questions. Its card sits 7th on the dashboard, labelled
-   «ОКРЕМИЙ ТРЕК».
-6. Next step: one link or one hand-in instruction.
-7. Sources: every URL and record used.
+1. **Diagnosis header**: H1 «<Company>: головна проблема в <weakest block>»; under it one line
+   «Найслабші блоки: …, N з 5» plus 1–2 sentences of facts; the overall score large and coloured by
+   its bucket, with the bucket label as a pill; «prepared from public data only».
+2. **4 verdict tiles**: big text = what it means, caption = the numbers (two strengths, two gaps
+   is typical), then one line «Перший крок: …».
+3. **Bowtie dashboard «GTM-система: де губляться клієнти»**: funnel Формування попиту (SEO, AI,
+   LinkedIn, events) → Захоплення попиту (outreach, inbound) → Продажі → knot «Угода» → Утримання →
+   Відгуки → Розширення, a donut with % on every stage; under it the foundation as coloured tiles:
+   01 strategy (its 6 criteria + Value Proposition), 02 team, 06 processes, each group with its
+   donut; the legend. On phones the funnel becomes a vertical list.
+4. **Bars of the 6 block scores**, H2 «Оцінки 6 блоків: N з 6 нижче 3».
+5. **Blocks 01–06.** Block 01 opens with «Розклад на складові»: Offer (entry product, price, term,
+   what the buyer holds, risk reversal, next step), Value Proposition (dream outcome, proof, time to
+   result, client effort), ICP (3 components 1–5); each row ✓ / ~ / ✕ in green / amber / red, a
+   «X з N» count and a segmented bar. Every block: H2 = a fact with a number, criteria in a table
+   (score · what is visible), mandatory tables where they belong, one «Що зробити» line, a
+   «Питання на дзвінок» box.
+6. **Trust track «Довіра до сайту»**: H2 with the 0–100 score, table of 8 criteria (weight · score ·
+   what is visible), the formula line, a number-drift table, a «Шлях перевірки» table
+   (clicked → opened → ✓/✕), «Що зробити».
+7. **Next step**: one link or one hand-in instruction.
+8. **Sources**: every URL and record used.
 
 ## Self-check before delivering
 
 - Every score has evidence; every `?` has a question.
-- No block H2 is a bare block name; each carries its conclusion.
+- H1 names the weakest block; no block H2 is a bare block name; each carries a fact with a number.
+- No tile shows a bare number as its big text.
 - Headline numbers appear at most twice (thesis and its block).
 - Reviews are counted as reviews, not as clients.
 - Trust track: every repeated number (team, years, projects, clients) checked on home, About,
