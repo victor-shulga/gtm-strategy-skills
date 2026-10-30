@@ -146,3 +146,30 @@ blank one.
 - Every "since", "years", "average" has a dated source or is removed.
 - No client names of the author, no em dashes in Ukrainian, decimal comma.
 - The page has `<meta name="viewport">` and does not scroll sideways on a phone.
+
+## Terms and plain-language output
+
+<!-- glossary:start terms=value-equation,dream-outcome,risk-reversal,free-hook,inbound-outbound,spf-dkim,ai-visibility,bowtie,expand,referral,cold-audit -->
+Rules for every document a client or their team will read (review, roast, canvas, offer cards, instruction):
+
+1. **Open with «Словник цього документа»**: only the terms that actually appear in it, at most 10, each as «термін: що це простими словами». Like the definitions section of a contract.
+2. **No internal codes or letter scales in the text** (A/B/C, D L T E, BLEND numbers without words, Own/Shared/Generic, Z1.4, GATE 2.5, T1–T6). Write the meaning instead: «є цифра з клієнтом», not «A».
+3. **Use the plain form from the table below.** English stays only for tool names and for copy that ships in English (promises, hooks, subject lines). If the document is in another language, translate the plain form, never the internal term.
+4. **Do not score what cannot exist yet.** A block that depends on work not done (signal catalog, case studies, a previous step) gets «пропущено: спершу потрібно <що саме>», not a score.
+5. **Every section of a review opens with one concrete action** («до наступного дзвінка: …»), then at most five lines of why. No paragraph that only restates the framework.
+
+
+| Internal term (this skill) | Write for the reader | What it means |
+|---|---|---|
+| Value Proposition X/4: Dream Outcome, perceived likelihood, Time Delay, Effort & Sacrifice | ціннісна пропозиція: бажаний результат · віра, що вийде · час до результату · зусилля клієнта | чим більший результат і віра в нього, і чим менше часу та зусиль, тим цінніша пропозиція. |
+| dream outcome | бажаний результат клієнта | як виглядає ситуація клієнта, коли проблему вирішено, його ж словами |
+| risk reversal, guarantee | гарантія, що знімає ризик | що клієнт отримає, якщо результату не буде: повернення грошей, безкоштовне продовження, оплата за етапами |
+| hook / free offer, lead magnet | безкоштовний вхід | аудит, розрахунок втрат або розбір, що показує проблему і веде до розмови |
+| inbound / outbound, inbound capture | вхідні заявки · холодні звернення | клієнт приходить сам через сайт і контент, або ви пишете йому першим. |
+| SPF, DKIM, DMARC, sending domains | SPF, DKIM, DMARC (записи, що підтверджують вашу пошту) | без них листи потрапляють у спам; для розсилок потрібні ще й окремі домени. |
+| AI visibility | видимість у відповідях AI-асистентів | чи називають вас ChatGPT, Gemini, Perplexity, коли покупець питає про вашу послугу. |
+| bowtie dashboard | схема «GTM-система: де губляться клієнти» | шлях від першого контакту до угоди і далі до утримання й допродажу, з оцінкою кожного етапу. |
+| expand, land-and-expand | допродаж після першої роботи | дорожчі сходинки не пропонуємо холодним людям, їх продаємо клієнту, який уже отримав результат на вхідному офері |
+| referral | рекомендації | клієнти приводять інших клієнтів. |
+| cold audit | огляд ззовні за публічними даними | оцінка лише з того, що бачить сторонній: сайт, LinkedIn, відгуки; внутрішніх даних ще немає. |
+<!-- glossary:end -->

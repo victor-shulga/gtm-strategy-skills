@@ -54,6 +54,33 @@ CRM), best-practice мережі, події, подкасти. Кожен ма�
 **4 · Що НЕ вмикати зараз** (overshoot guard): передчасні канали для стадії (напр. SEO/paid/events на
 Стадії 0 — довгий payback, нема проофів).
 
+## Terms and plain-language output
+
+<!-- glossary:start terms=gtm-motions,primary-test-channel,watering-holes,smf-gap,cac-ltv,demand-capture-gen,inbound-outbound,growth-loops,awareness-stages,overshoot-undershoot,agency-stage -->
+Rules for every document a client or their team will read (review, roast, canvas, offer cards, instruction):
+
+1. **Open with «Словник цього документа»**: only the terms that actually appear in it, at most 10, each as «термін: що це простими словами». Like the definitions section of a contract.
+2. **No internal codes or letter scales in the text** (A/B/C, D L T E, BLEND numbers without words, Own/Shared/Generic, Z1.4, GATE 2.5, T1–T6). Write the meaning instead: «є цифра з клієнтом», not «A».
+3. **Use the plain form from the table below.** English stays only for tool names and for copy that ships in English (promises, hooks, subject lines). If the document is in another language, translate the plain form, never the internal term.
+4. **Do not score what cannot exist yet.** A block that depends on work not done (signal catalog, case studies, a previous step) gets «пропущено: спершу потрібно <що саме>», not a score.
+5. **Every section of a review opens with one concrete action** («до наступного дзвінка: …»), then at most five lines of why. No paragraph that only restates the framework.
+
+
+| Internal term (this skill) | Write for the reader | What it means |
+|---|---|---|
+| 7 GTM motions: Inbound / Paid / Outbound / ABM / Community / Partners / PLG | способи залучення клієнтів: вхідні заявки · реклама · холодні звернення · робота з обраними акаунтами · спільнота · партнери · продукт продає сам | обираємо 2–3, що підходять вашому ICP і стадії, решту відкладаємо. |
+| 1 primary + 1-2 test channels | основний канал + 1–2 тестові | основний дає перші угоди, тестові перевіряємо паралельно і прибираємо ті, що не дають результату. |
+| ICP watering holes | місця, де збирається ваш ICP | конкретні групи, асоціації, події, подкасти, де багато потрібних людей. |
+| SMF gap, Sales-Market Fit, L / Cr / $ / # | де губляться гроші: ліди · конверсія · чек · повторні продажі | одне з чотирьох місць, де прибуток протікає; закривати починаємо з найдешевшого. |
+| CAC, LTV, CAC = ⅓ LTV | ціна залучення клієнта · дохід з клієнта за весь час | здорова пропорція: залучення коштує не більше третини того, що клієнт принесе. |
+| demand capture vs demand generation | збір готового попиту · створення попиту | перше ловить тих, хто вже шукає; друге вчить ринок, що проблема існує. |
+| inbound / outbound, inbound capture | вхідні заявки · холодні звернення | клієнт приходить сам через сайт і контент, або ви пишете йому першим. |
+| Growth Loops | петлі росту | схема, де результат одного клієнта приводить наступного: відгук, рекомендація, спільний кейс. |
+| Problem unaware → business trigger → problem aware → solution aware → alternatives → objections → consideration → decision → onboarding → expansion | етапи шляху покупця: не бачить проблеми · подія-поштовх · бачить проблему · шукає рішення · порівнює · обирає · перший результат · допродаж | де зараз покупець у голові і що йому потрібно почути саме на цьому етапі. |
+| overshoot / undershoot | передчасне · запізніле для вашої стадії | матеріал чи документ, зроблений раніше, ніж він окупиться, або той, без якого стадія вже гальмує. |
+| Stage 0–5, стадія агенції | стадія розвитку компанії (0–5) | шість щаблів від «CEO робить усе» до «портфель напрямів»; від стадії залежить, що доречно робити зараз. |
+<!-- glossary:end -->
+
 ## Вихід (Notion)
 Під-сторінка **«11 · Channels Plan»**: scored shortlist · per-channel картки (з data sources) ·
 sequencing · «не вмикати зараз» · блок «Джерела / припущення». Українською.

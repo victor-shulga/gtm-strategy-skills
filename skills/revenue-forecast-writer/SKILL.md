@@ -170,3 +170,30 @@ this audience sees, and flag the divergence in every report. Do not merge them.
 
 Built by Victor Shulga; the metrics pyramid is his planning template. The cold email reply-rate
 reference comes from a cold-email sending platform's published benchmark report (2025 data).
+
+## Terms and plain-language output
+
+<!-- glossary:start terms=metrics-pyramid,north-star-metric,top-down-bottom-up,sql,reply-rate,positive-reply-rate,win-rate,presales,ramp,sdr-am-roles,expand -->
+Rules for every document a client or their team will read (review, roast, canvas, offer cards, instruction):
+
+1. **Open with «Словник цього документа»**: only the terms that actually appear in it, at most 10, each as «термін: що це простими словами». Like the definitions section of a contract.
+2. **No internal codes or letter scales in the text** (A/B/C, D L T E, BLEND numbers without words, Own/Shared/Generic, Z1.4, GATE 2.5, T1–T6). Write the meaning instead: «є цифра з клієнтом», not «A».
+3. **Use the plain form from the table below.** English stays only for tool names and for copy that ships in English (promises, hooks, subject lines). If the document is in another language, translate the plain form, never the internal term.
+4. **Do not score what cannot exist yet.** A block that depends on work not done (signal catalog, case studies, a previous step) gets «пропущено: спершу потрібно <що саме>», not a score.
+5. **Every section of a review opens with one concrete action** («до наступного дзвінка: …»), then at most five lines of why. No paragraph that only restates the framework.
+
+
+| Internal term (this skill) | Write for the reader | What it means |
+|---|---|---|
+| metrics pyramid: North-star / L1 Revenue / L2 Sales / L3 Channel / L4 Supporting | дерево показників: головний · виручка · продажі · канали · ресурси | кожна цифра плану має «батька» рівнем вище, тому видно, що на що впливає. |
+| North Star Metric, NSM | головний показник | одна цифра, за якою компанія звіряє курс; вона веде до виручки і показує цінність для клієнта. |
+| top-down / bottom-up | рахунок зверху вниз · знизу вгору | зверху: від ринкових даних чи цілі; знизу: від кількості компаній чи ваших реальних можливостей; різниця між ними і є головний висновок. |
+| SQL | кваліфікований лід | лід, з яким підтвердили потребу, бюджет і того, хто вирішує. |
+| reply rate | частка відповідей | скільки людей з тих, кому написали, відповіли. |
+| positive reply rate | частка позитивних відповідей | скільки з тих, кому написали, відповіли з інтересом, а не «відпишіть мене» |
+| win rate | частка виграних угод | скільки угод з поданих пропозицій закінчилось підписом. |
+| presales | підготовка пропозицій | хто і скільки пропозицій може написати за місяць. |
+| ramp, ramp time | вихід на повну продуктивність | скільки часу нова людина чи канал набирає звичний обсяг. |
+| SDR, BDM, AM | хто шукає клієнтів · хто веде угоду до підпису · хто веде наявних клієнтів | три ролі в продажах; на ранній стадії їх часто суміщає одна людина. |
+| expand, land-and-expand | допродаж після першої роботи | дорожчі сходинки не пропонуємо холодним людям, їх продаємо клієнту, який уже отримав результат на вхідному офері |
+<!-- glossary:end -->

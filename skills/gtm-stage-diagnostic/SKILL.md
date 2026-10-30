@@ -54,9 +54,36 @@ argument-hint: "(reads the Company Snapshot from the client's Notion page)"
 **3 питання** · ключові **припущення cold-audit**. Оркестратор покаже це користувачу і чекатиме
 підтвердження/правок, перш ніж іти далі. Не починай ICP, доки стадію не підтверджено.
 
+## Terms and plain-language output
+
+<!-- glossary:start terms=agency-stage,smf-gap,aga-focus,overshoot-undershoot,checkpoint,hypothesis-confidence,founder-led,headcount-tenure,arr,discovery-call,cold-audit -->
+Rules for every document a client or their team will read (review, roast, canvas, offer cards, instruction):
+
+1. **Open with «Словник цього документа»**: only the terms that actually appear in it, at most 10, each as «термін: що це простими словами». Like the definitions section of a contract.
+2. **No internal codes or letter scales in the text** (A/B/C, D L T E, BLEND numbers without words, Own/Shared/Generic, Z1.4, GATE 2.5, T1–T6). Write the meaning instead: «є цифра з клієнтом», not «A».
+3. **Use the plain form from the table below.** English stays only for tool names and for copy that ships in English (promises, hooks, subject lines). If the document is in another language, translate the plain form, never the internal term.
+4. **Do not score what cannot exist yet.** A block that depends on work not done (signal catalog, case studies, a previous step) gets «пропущено: спершу потрібно <що саме>», not a score.
+5. **Every section of a review opens with one concrete action** («до наступного дзвінка: …»), then at most five lines of why. No paragraph that only restates the framework.
+
+
+| Internal term (this skill) | Write for the reader | What it means |
+|---|---|---|
+| Stage 0–5, стадія агенції | стадія розвитку компанії (0–5) | шість щаблів від «CEO робить усе» до «портфель напрямів»; від стадії залежить, що доречно робити зараз. |
+| SMF gap, Sales-Market Fit, L / Cr / $ / # | де губляться гроші: ліди · конверсія · чек · повторні продажі | одне з чотирьох місць, де прибуток протікає; закривати починаємо з найдешевшого. |
+| AGA focus, M1 / M2–M3 / M4 / M5 | напрям робіт: стратегія · LinkedIn і розсилки · продажі · робота з клієнтами | блок робіт, який вмикаємо першим під вашу стадію; кодів модулів у документі не пишемо. |
+| overshoot / undershoot | передчасне · запізніле для вашої стадії | матеріал чи документ, зроблений раніше, ніж він окупиться, або той, без якого стадія вже гальмує. |
+| GATE 2.5, checkpoint | точка погодження з вами | місце, де зупиняємося і питаємо «підтверджуєте чи міняємо?»; код у документ не пишемо |
+| propose-by-default, hypothesis · confidence low/med/high | наш варіант з рівнем упевненості | там, де ви ще не назвали відповідь, пропонуємо свою і пишемо, наскільки впевнені і на чому вона базується |
+| founder-led, founder bottleneck | продажі тримаються на засновнику | угоди закриває лише засновник, тому ріст упирається в його час. |
+| headcount, growth trend, median tenure | кількість людей · як змінюється · скільки в середньому працюють у компанії | показує розмір команди, чи вона росте і наскільки стабільна. |
+| ARR | річна виручка | скільки компанія заробляє за рік. |
+| discovery, discovery call | перший дзвінок з розбором потреби | розмова, де з'ясовуємо задачу, бюджет і хто вирішує, до будь-якої пропозиції. |
+| cold audit | огляд ззовні за публічними даними | оцінка лише з того, що бачить сторонній: сайт, LinkedIn, відгуки; внутрішніх даних ще немає. |
+<!-- glossary:end -->
+
 ## Вихід (Notion)
 Під-сторінка **«02 · Stage Diagnostic»**: гіпотеза стадії + причини + впевненість; SMF-діра з
-аргументацією; AGA-фокус; швидкий overshoot/undershoot; 3 discovery-питання; блок «Джерела/припущення».
+аргументацією (the leak named in words: leads, conversion, deal size or repeat business, never the letters L/Cr/$/#); the recommended work focus in plain words, never AGA or M1–M5 codes; a quick list of what is premature and what is lagging for the stage; 3 discovery-питання; блок «Джерела/припущення».
 Онови властивості сторінки клієнта: `Stage`, `Stage confidence`, `SMF gap`, `AGA focus`,
 `Status = Diagnosed`.
 

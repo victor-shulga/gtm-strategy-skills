@@ -143,3 +143,32 @@ argument-hint: "[company URL or name] + any evidence you have (docs, exports, an
 ```
 
 У чаті після документа: 5 рядків — бал, найгірший блок, три дії, скільки критеріїв без даних.
+
+## Terms and plain-language output
+
+<!-- glossary:start terms=maturity-band,sdr-am-roles,demand-capture-gen,spf-dkim,warmup,nurture,bounce-rate,discovery-call,playbook-sop,expand,referral,sequence,agency-stage -->
+Rules for every document a client or their team will read (review, roast, canvas, offer cards, instruction):
+
+1. **Open with «Словник цього документа»**: only the terms that actually appear in it, at most 10, each as «термін: що це простими словами». Like the definitions section of a contract.
+2. **No internal codes or letter scales in the text** (A/B/C, D L T E, BLEND numbers without words, Own/Shared/Generic, Z1.4, GATE 2.5, T1–T6). Write the meaning instead: «є цифра з клієнтом», not «A».
+3. **Use the plain form from the table below.** English stays only for tool names and for copy that ships in English (promises, hooks, subject lines). If the document is in another language, translate the plain form, never the internal term.
+4. **Do not score what cannot exist yet.** A block that depends on work not done (signal catalog, case studies, a previous step) gets «пропущено: спершу потрібно <що саме>», not a score.
+5. **Every section of a review opens with one concrete action** («до наступного дзвінка: …»), then at most five lines of why. No paragraph that only restates the framework.
+
+
+| Internal term (this skill) | Write for the reader | What it means |
+|---|---|---|
+| band Critical / Weak / Working / System, Ad hoc | рівень системи: критично · слабко · працює частково · система працює | загальний висновок аудиту; «від випадку до випадку» означає, що процес живе лише в голові CEO. |
+| SDR, BDM, AM | хто шукає клієнтів · хто веде угоду до підпису · хто веде наявних клієнтів | три ролі в продажах; на ранній стадії їх часто суміщає одна людина. |
+| demand capture vs demand generation | збір готового попиту · створення попиту | перше ловить тих, хто вже шукає; друге вчить ринок, що проблема існує. |
+| SPF, DKIM, DMARC, sending domains | SPF, DKIM, DMARC (записи, що підтверджують вашу пошту) | без них листи потрапляють у спам; для розсилок потрібні ще й окремі домени. |
+| warmup | прогрів поштових скриньок | поступове збільшення кількості листів з нової скриньки, щоб пошта не потрапила в спам. |
+| nurture | догрів | регулярні корисні дотики до тих, хто ще не готовий купувати. |
+| bounce | відмови доставки | частка листів, які не дійшли, бо адреса неправильна чи мертва. |
+| discovery, discovery call | перший дзвінок з розбором потреби | розмова, де з'ясовуємо задачу, бюджет і хто вирішує, до будь-якої пропозиції. |
+| playbook, SOP | інструкція з продажів · покрокова інструкція | записаний порядок дій, за яким команда працює без засновника. |
+| expand, land-and-expand | допродаж після першої роботи | дорожчі сходинки не пропонуємо холодним людям, їх продаємо клієнту, який уже отримав результат на вхідному офері |
+| referral | рекомендації | клієнти приводять інших клієнтів. |
+| sequences and templates | ланцюжки листів і шаблони | серія з кількох листів чи повідомлень одному проспекту з паузами між ними. |
+| Stage 0–5, стадія агенції | стадія розвитку компанії (0–5) | шість щаблів від «CEO робить усе» до «портфель напрямів»; від стадії залежить, що доречно робити зараз. |
+<!-- glossary:end -->

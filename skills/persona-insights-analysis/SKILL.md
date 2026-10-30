@@ -110,6 +110,31 @@ Finish with the gaps: personas missing from the sample, stages not covered, and 
 - Never write a quote that is not in the data. Never merge two people's words into one quote.
 - Poor transcription gets `[unclear transcript]` next to the quote.
 
+## Terms and plain-language output
+
+<!-- glossary:start terms=call-codes,sample-confidence,objection-outcome,decision-maker,day-to-day-owner,evaluator,trigger,customer-language,buying-signal -->
+Rules for every document a client or their team will read (review, roast, canvas, offer cards, instruction):
+
+1. **Open with «Словник цього документа»**: only the terms that actually appear in it, at most 10, each as «термін: що це простими словами». Like the definitions section of a contract.
+2. **No internal codes or letter scales in the text** (A/B/C, D L T E, BLEND numbers without words, Own/Shared/Generic, Z1.4, GATE 2.5, T1–T6). Write the meaning instead: «є цифра з клієнтом», not «A».
+3. **Use the plain form from the table below.** English stays only for tool names and for copy that ships in English (promises, hooks, subject lines). If the document is in another language, translate the plain form, never the internal term.
+4. **Do not score what cannot exist yet.** A block that depends on work not done (signal catalog, case studies, a previous step) gets «пропущено: спершу потрібно <що саме>», not a score.
+5. **Every section of a review opens with one concrete action** («до наступного дзвінка: …»), then at most five lines of why. No paragraph that only restates the framework.
+
+
+| Internal term (this skill) | Write for the reader | What it means |
+|---|---|---|
+| codebook GOAL / PAIN / TRIGGER / SETUP / OBJECTION / PROCESS / SIGNAL / RED FLAG / WORDS | мітки з дзвінків: ціль · біль · подія-поштовх · як зараз · заперечення · як ухвалюють рішення · ознака наміру · тривожна ознака · слова клієнта | кожну фразу покупця відносимо до однієї мітки і рахуємо, у скількох дзвінках вона з'явилась. |
+| directional / patterns / segmented | попередньо (до 5 дзвінків) · закономірності (5–14) · можна ділити на групи (15+) | наскільки висновкам можна вірити, залежно від кількості дзвінків. |
+| resolved / parked / ignored | закрили · відклали · проігнорували | що сталося із запереченням покупця після відповіді продавця. |
+| decision maker | ОПР (особа, що приймає рішення) | той, хто підписує: власник, операційний директор, керівник напряму |
+| day-to-day owner, champion | той, хто працюватиме з вами щодня | керівник проєкту, BIM-менеджер, керівник розробки; йому важливе інше, ніж ОПР |
+| evaluator | той, хто перевіряє якість чи ризики | старший інженер, закупівлі чи юрист з боку клієнта; сам не підписує, але може зупинити. |
+| trigger, business trigger, account trigger, TRIGGER | подія-поштовх | подія в компанії покупця (нове керівництво, великий проєкт, втрата людини), після якої він починає шукати рішення. |
+| customer language, verbatim, language bank, WORDS | слова клієнта дослівно | фрази, якими покупці самі описують проблему і результат; їх беремо в тексти без змін. |
+| buying signal | ознака готовності купувати | факт про компанію, після якого розмова про вашу послугу доречна саме зараз. |
+<!-- glossary:end -->
+
 ## Output template
 
 ```
@@ -121,7 +146,7 @@ Decision this informs: [messaging / ICP / offer]
 [3 to 5 findings, each with count]
 
 ## Themes by frequency
-| Theme | Code | Calls | Share | Example quote |
+| Theme | Type (in words: goal, pain, trigger, current setup, objection, decision process, intent signal, red flag, buyer words) | Calls | Share | Example quote |
 
 ## Personas
 ### [Persona name]: [role in purchase] · calls: [n]

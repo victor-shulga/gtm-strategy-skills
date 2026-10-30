@@ -46,7 +46,7 @@ If any bracket cannot be filled, that gap is the first finding. An idea with no 
 
 ## Step 2. What must be true
 
-List the conditions the bet depends on. Check at least these five areas and rate each condition `evidence` (data or a closed deal shows it), `belief` (plausible, not shown) or `unknown`:
+List the conditions the bet depends on. Check at least these five areas and rate each condition and write the rating in words in the reader's language: proven (data or a closed deal shows it), believed (plausible, not shown) or unknown:
 
 - **Buyer:** the segment has this pain now, and a reachable person owns it
 - **Reach:** you can find and contact enough accounts. A hypothesis tested on fewer than 300 contacts is not tested; small niches (a few thousand firms worldwide) run out fast
@@ -113,6 +113,31 @@ Close with one of four labels and three sentences of reasoning:
 - **Park:** the bet is weak now; say what would have to change to reopen it
 
 Then: the single thing to do tomorrow morning.
+
+## Terms and plain-language output
+
+<!-- glossary:start terms=evidence-belief,founder-led,bench,adoption-gap,kill-keep,leading-lagging,positive-reply-rate,accept-rate,verdict-go-park -->
+Rules for every document a client or their team will read (review, roast, canvas, offer cards, instruction):
+
+1. **Open with «Словник цього документа»**: only the terms that actually appear in it, at most 10, each as «термін: що це простими словами». Like the definitions section of a contract.
+2. **No internal codes or letter scales in the text** (A/B/C, D L T E, BLEND numbers without words, Own/Shared/Generic, Z1.4, GATE 2.5, T1–T6). Write the meaning instead: «є цифра з клієнтом», not «A».
+3. **Use the plain form from the table below.** English stays only for tool names and for copy that ships in English (promises, hooks, subject lines). If the document is in another language, translate the plain form, never the internal term.
+4. **Do not score what cannot exist yet.** A block that depends on work not done (signal catalog, case studies, a previous step) gets «пропущено: спершу потрібно <що саме>», not a score.
+5. **Every section of a review opens with one concrete action** («до наступного дзвінка: …»), then at most five lines of why. No paragraph that only restates the framework.
+
+
+| Internal term (this skill) | Write for the reader | What it means |
+|---|---|---|
+| evidence / belief / unknown | доведено · віримо · невідомо | наскільки умова підтверджена даними чи закритою угодою. |
+| founder-led, founder bottleneck | продажі тримаються на засновнику | угоди закриває лише засновник, тому ріст упирається в його час. |
+| bench, bench pressure | люди без проєкту | фахівці, яким зараз немає роботи; через них ніша часто обирається під завантаження, без огляду на попит. |
+| adoption gap | система є, але нею не користуються | консультант чи засновник збудував процес, а команда не веде його щотижня. |
+| kill / keep threshold, N | поріг «лишаємо чи прибираємо» | на 40–60 контактів за 2 тижні: від 10% позитивних відповідей лишаємо, менше 5% прибираємо, між ними міняємо сигнал або посаду |
+| leading / lagging metric, KPI (leading) | випереджальний · підсумковий показник | випереджальний видно за тиждень-два (відповіді, дзвінки), підсумковий приходить пізніше (угоди, гроші). |
+| positive reply rate | частка позитивних відповідей | скільки з тих, кому написали, відповіли з інтересом, а не «відпишіть мене» |
+| accepted connection rate | частка прийнятих запитів у LinkedIn | скільки людей із тих, кому надіслали запит у контакти, його прийняли. |
+| Go / Go with changes / Test first / Park | запускаємо · запускаємо з правками · спершу тест · відкладаємо | підсумкове рішення щодо ідеї. |
+<!-- glossary:end -->
 
 ## Output template
 

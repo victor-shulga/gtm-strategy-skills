@@ -91,6 +91,30 @@ For every EDP produce:
 
 Group the segment into 2 to 4 sub-segments that feel different EDPs hardest (by size, sub-vertical, geo or client type). For each: the EDP that hits hardest, the trigger, and a one-line angle. These become candidate hypotheses for outbound.
 
+## Terms and plain-language output
+
+<!-- glossary:start terms=edp,source-grade,trigger,hook,discovery-call,proof,angle,hypothesis-confidence -->
+Rules for every document a client or their team will read (review, roast, canvas, offer cards, instruction):
+
+1. **Open with «Словник цього документа»**: only the terms that actually appear in it, at most 10, each as «термін: що це простими словами». Like the definitions section of a contract.
+2. **No internal codes or letter scales in the text** (A/B/C, D L T E, BLEND numbers without words, Own/Shared/Generic, Z1.4, GATE 2.5, T1–T6). Write the meaning instead: «є цифра з клієнтом», not «A».
+3. **Use the plain form from the table below.** English stays only for tool names and for copy that ships in English (promises, hooks, subject lines). If the document is in another language, translate the plain form, never the internal term.
+4. **Do not score what cannot exist yet.** A block that depends on work not done (signal catalog, case studies, a previous step) gets «пропущено: спершу потрібно <що саме>», not a score.
+5. **Every section of a review opens with one concrete action** («до наступного дзвінка: …»), then at most five lines of why. No paragraph that only restates the framework.
+
+
+| Internal term (this skill) | Write for the reader | What it means |
+|---|---|---|
+| EDP, existential data point | факт, що робить проблему терміновою | дедлайн регулятора, вакансія, відкрита місяцями, чи затримка проєктів, через які покупцю треба діяти цього кварталу. |
+| source grade A / B / C / D | надійність джерела: першоджерело · надійне вторинне · практики й окремі компанії · реклама без методу | на рекламі без методу висновків не будуємо; у документі пишемо словами, без літер. |
+| trigger, business trigger, account trigger, TRIGGER | подія-поштовх | подія в компанії покупця (нове керівництво, великий проєкт, втрата людини), після якої він починає шукати рішення. |
+| hook, cold hook | гачок | перший рядок листа, через який людина читає далі |
+| discovery, discovery call | перший дзвінок з розбором потреби | розмова, де з'ясовуємо задачу, бюджет і хто вирішує, до будь-якої пропозиції. |
+| proof, [TODO: need case] | доказ | кейс, цифра або відгук, що підтверджують обіцянку; якщо його немає, пишемо «потрібен кейс», а не вигадуємо |
+| angle, differentiation angle | кут подачі | одна думка, з якою ви заходите до покупця: його біль, ваш доказ і фраза, яку він повторить. |
+| propose-by-default, hypothesis · confidence low/med/high | наш варіант з рівнем упевненості | там, де ви ще не назвали відповідь, пропонуємо свою і пишемо, наскільки впевнені і на чому вона базується |
+<!-- glossary:end -->
+
 ## Output template
 
 ```
@@ -101,8 +125,8 @@ Group the segment into 2 to 4 sub-segments that feel different EDPs hardest (by 
 
 ## EDPs (ranked)
 ### EDP 1: [short name]
-Fact: [the number or rule, exact wording] · Source: [URL] · Grade: [A/B] · Date of source: [ ]
-Score: buyer [ ] clock [ ] visible [ ] moves [ ] = [ ]/8
+Fact: [the number or rule, exact wording] · Source: [URL] · Source reliability: [primary / reputable secondary, in words] · Date of source: [ ]
+Score: about the buyer [ ] has a deadline [ ] visible per company [ ] your service changes it [ ] = [ ]/8
 Why it is urgent: [two sentences]
 Account trigger: [signal + where to detect]
 Opener: "[text ending in a question]"

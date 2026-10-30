@@ -33,7 +33,7 @@ Z1 (Appendix A).
 - **91–180 днів — Traction/Scale:** масштабувати те, що спрацювало; додати наступний AGA-модуль.
 
 **Формат кожної дії (task-картка):**
-- Назва · Навіщо (яку діру/мету закриває) · Owner (роль за стадією) · Effort (S/M/L) ·
+- Назва · Навіщо (яку діру/мету закриває) · Owner (роль за стадією) · Effort (small / medium / large, written in words) ·
   KPI (leading-метрика) · Залежності.
 
 **Окремі блоки:**
@@ -49,9 +49,37 @@ Z1 (Appendix A).
 Покажи користувачу стислий 30-90-180 + блоки kill/build. Чекай підтвердження/правок. Після — онови
 `Status = Plan ready`.
 
+## Terms and plain-language output
+
+<!-- glossary:start terms=agency-stage,smf-gap,aga-focus,checkpoint,plan-horizons,effort-sml,leading-lagging,overshoot-undershoot,fit-milestones,north-star-metric,okr,impact-ease -->
+Rules for every document a client or their team will read (review, roast, canvas, offer cards, instruction):
+
+1. **Open with «Словник цього документа»**: only the terms that actually appear in it, at most 10, each as «термін: що це простими словами». Like the definitions section of a contract.
+2. **No internal codes or letter scales in the text** (A/B/C, D L T E, BLEND numbers without words, Own/Shared/Generic, Z1.4, GATE 2.5, T1–T6). Write the meaning instead: «є цифра з клієнтом», not «A».
+3. **Use the plain form from the table below.** English stays only for tool names and for copy that ships in English (promises, hooks, subject lines). If the document is in another language, translate the plain form, never the internal term.
+4. **Do not score what cannot exist yet.** A block that depends on work not done (signal catalog, case studies, a previous step) gets «пропущено: спершу потрібно <що саме>», not a score.
+5. **Every section of a review opens with one concrete action** («до наступного дзвінка: …»), then at most five lines of why. No paragraph that only restates the framework.
+
+
+| Internal term (this skill) | Write for the reader | What it means |
+|---|---|---|
+| Stage 0–5, стадія агенції | стадія розвитку компанії (0–5) | шість щаблів від «CEO робить усе» до «портфель напрямів»; від стадії залежить, що доречно робити зараз. |
+| SMF gap, Sales-Market Fit, L / Cr / $ / # | де губляться гроші: ліди · конверсія · чек · повторні продажі | одне з чотирьох місць, де прибуток протікає; закривати починаємо з найдешевшого. |
+| AGA focus, M1 / M2–M3 / M4 / M5 | напрям робіт: стратегія · LinkedIn і розсилки · продажі · робота з клієнтами | блок робіт, який вмикаємо першим під вашу стадію; кодів модулів у документі не пишемо. |
+| GATE 2.5, checkpoint | точка погодження з вами | місце, де зупиняємося і питаємо «підтверджуєте чи міняємо?»; код у документ не пишемо |
+| Quick Wins / Foundation / Traction-Scale (0–30 / 31–90 / 91–180) | швидкі кроки · фундамент · масштабування | три відрізки плану на 30, 90 і 180 днів. |
+| Effort S / M / L | обсяг роботи: малий · середній · великий | грубо, скільки часу забере дія; пишемо словами, без літер. |
+| leading / lagging metric, KPI (leading) | випереджальний · підсумковий показник | випереджальний видно за тиждень-два (відповіді, дзвінки), підсумковий приходить пізніше (угоди, гроші). |
+| overshoot / undershoot | передчасне · запізніле для вашої стадії | матеріал чи документ, зроблений раніше, ніж він окупиться, або той, без якого стадія вже гальмує. |
+| Problem-Solution fit → PMF → GTM-fit → Scaling | етапи доведення: проблему визнають · клієнти тримаються · продажі повторюються · масштабування | чотири перевірки, які показують, що бізнес готовий до наступного кроку. |
+| North Star Metric, NSM | головний показник | одна цифра, за якою компанія звіряє курс; вона веде до виручки і показує цінність для клієнта. |
+| OKR | цілі й ключові результати | ціль словами плюс 3–5 вимірюваних результатів, переглядаємо щомісяця. |
+| Impact × Ease | вплив × легкість | спосіб розставити дії за пріоритетом: спершу те, що дає багато і робиться легко. |
+<!-- glossary:end -->
+
 ## Вихід (Notion)
 Під-сторінка **«13 · Action Plan 30-90-180»**: 3 горизонти з task-картками (таблиця або тогли),
-блоки overshoot/undershoot/«не робимо», і резюме зверху (Стадія · SMF-діра · AGA-фокус · топ-3 дії).
+блоки overshoot/undershoot/«не робимо», і резюме зверху (stage named in words; where money leaks in words: leads, conversion, deal size or repeat business, never the letters L/Cr/$/#; the work focus in plain words, never AGA or M1–M5 codes; top-3 actions).
 Українською. Блок «Джерела/припущення».
 
 ## Definition of Done

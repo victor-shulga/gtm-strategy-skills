@@ -91,6 +91,33 @@ argument-hint: "<agency-website-url>"
 (див. `${CLAUDE_PLUGIN_ROOT}/reference/agency-stages.md`, розділ 1 — cold-audit проксі-сигнали).
 Це **сировина для `gtm-stage-diagnostic`**, тут стадію ще не оголошуй.
 
+## Terms and plain-language output
+
+<!-- glossary:start terms=cold-audit,positioning-score,value-equation,use-case,customer-language,headcount-tenure,founder-led,seo-metrics,productized,free-hook,agency-stage -->
+Rules for every document a client or their team will read (review, roast, canvas, offer cards, instruction):
+
+1. **Open with «Словник цього документа»**: only the terms that actually appear in it, at most 10, each as «термін: що це простими словами». Like the definitions section of a contract.
+2. **No internal codes or letter scales in the text** (A/B/C, D L T E, BLEND numbers without words, Own/Shared/Generic, Z1.4, GATE 2.5, T1–T6). Write the meaning instead: «є цифра з клієнтом», not «A».
+3. **Use the plain form from the table below.** English stays only for tool names and for copy that ships in English (promises, hooks, subject lines). If the document is in another language, translate the plain form, never the internal term.
+4. **Do not score what cannot exist yet.** A block that depends on work not done (signal catalog, case studies, a previous step) gets «пропущено: спершу потрібно <що саме>», not a score.
+5. **Every section of a review opens with one concrete action** («до наступного дзвінка: …»), then at most five lines of why. No paragraph that only restates the framework.
+
+
+| Internal term (this skill) | Write for the reader | What it means |
+|---|---|---|
+| cold audit | огляд ззовні за публічними даними | оцінка лише з того, що бачить сторонній: сайт, LinkedIn, відгуки; внутрішніх даних ще немає. |
+| Positioning X out of 5 | позиціонування: 5 пунктів, видних за 5 секунд | чи зрозуміло з головного екрану сайту, для кого ви, в якій галузі, яку проблему вирішуєте, юз кейс і офер. |
+| Value Proposition X/4: Dream Outcome, perceived likelihood, Time Delay, Effort & Sacrifice | ціннісна пропозиція: бажаний результат · віра, що вийде · час до результату · зусилля клієнта | чим більший результат і віра в нього, і чим менше часу та зусиль, тим цінніша пропозиція. |
+| use case | юз кейс | одна ситуація клієнта: хто, що сталося, що болить, що зробили, який результат і який доказ |
+| customer language, verbatim, language bank, WORDS | слова клієнта дослівно | фрази, якими покупці самі описують проблему і результат; їх беремо в тексти без змін. |
+| headcount, growth trend, median tenure | кількість людей · як змінюється · скільки в середньому працюють у компанії | показує розмір команди, чи вона росте і наскільки стабільна. |
+| founder-led, founder bottleneck | продажі тримаються на засновнику | угоди закриває лише засновник, тому ріст упирається в його час. |
+| DR, backlinks, organic traffic | SEO-показники: авторитет домену · зовнішні посилання · відвідування з пошуку | наскільки сайт видно в Google і чи приводить він людей. |
+| productized vs bespoke | готовий пакет · під замовлення | пакет має фіксований обсяг, термін і ціну; під замовлення кожен раз рахується окремо. |
+| hook / free offer, lead magnet | безкоштовний вхід | аудит, розрахунок втрат або розбір, що показує проблему і веде до розмови |
+| Stage 0–5, стадія агенції | стадія розвитку компанії (0–5) | шість щаблів від «CEO робить усе» до «портфель напрямів»; від стадії залежить, що доречно робити зараз. |
+<!-- glossary:end -->
+
 ## Вихід (Notion)
 Створи/онови під-сторінку **«01 · Company Snapshot»** на сторінці клієнта (див.
 `${CLAUDE_PLUGIN_ROOT}/reference/notion-schema.md`). Структура: розділи 1–12 вище + блок

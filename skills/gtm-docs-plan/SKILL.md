@@ -42,6 +42,33 @@ In progress/Done) · Quality Score (0/1/2) · Priority · How-to-create / covere
 - **Стадія 2:** +Sales playbook, objection handlers, battle cards, client onboarding, lead scoring.
 - **Стадія 3-4:** AM/CS playbooks, SLA, OKR, leadership cadence, board update.
 
+## Terms and plain-language output
+
+<!-- glossary:start terms=readiness-score,status-todo,playbook-sop,bant-meddic,qbr,sla,okr,lead-scoring,hypothesis-matrix,overshoot-undershoot,agency-stage -->
+Rules for every document a client or their team will read (review, roast, canvas, offer cards, instruction):
+
+1. **Open with «Словник цього документа»**: only the terms that actually appear in it, at most 10, each as «термін: що це простими словами». Like the definitions section of a contract.
+2. **No internal codes or letter scales in the text** (A/B/C, D L T E, BLEND numbers without words, Own/Shared/Generic, Z1.4, GATE 2.5, T1–T6). Write the meaning instead: «є цифра з клієнтом», not «A».
+3. **Use the plain form from the table below.** English stays only for tool names and for copy that ships in English (promises, hooks, subject lines). If the document is in another language, translate the plain form, never the internal term.
+4. **Do not score what cannot exist yet.** A block that depends on work not done (signal catalog, case studies, a previous step) gets «пропущено: спершу потрібно <що саме>», not a score.
+5. **Every section of a review opens with one concrete action** («до наступного дзвінка: …»), then at most five lines of why. No paragraph that only restates the framework.
+
+
+| Internal term (this skill) | Write for the reader | What it means |
+|---|---|---|
+| Quality Score 0 / 1 / 2, Readiness % | якість: немає · є, але слабке · готово; загальна готовність у відсотках | кожен матеріал чи документ оцінюємо від 0 до 2, відсоток показує, скільки з потрібного вже є. |
+| Status To-Do / In progress / Done | не почато · в роботі · готово | стан кожного пункту в списку. |
+| playbook, SOP | інструкція з продажів · покрокова інструкція | записаний порядок дій, за яким команда працює без засновника. |
+| BANT, MEDDIC | чек-лист кваліфікації угоди | питання, які перевіряють бюджет, того, хто вирішує, потребу і терміни, перш ніж вкладатися в угоду. |
+| QBR | квартальна зустріч з клієнтом | раз на квартал разом з клієнтом підсумовуєте результати і плануєте наступні кроки. |
+| SLA (marketing ↔ sales) | домовленість між маркетингом і продажами | хто передає ліда, у якому вигляді і за скільки годин на нього реагують. |
+| OKR | цілі й ключові результати | ціль словами плюс 3–5 вимірюваних результатів, переглядаємо щомісяця. |
+| lead scoring | оцінка лідів | бали, за якими видно, з ким говорити першим. |
+| hypothesis matrix | таблиця гіпотез | список варіантів «кому · з чим · через який канал» для перевірки в розсилках. |
+| overshoot / undershoot | передчасне · запізніле для вашої стадії | матеріал чи документ, зроблений раніше, ніж він окупиться, або той, без якого стадія вже гальмує. |
+| Stage 0–5, стадія агенції | стадія розвитку компанії (0–5) | шість щаблів від «CEO робить усе» до «портфель напрямів»; від стадії залежить, що доречно робити зараз. |
+<!-- glossary:end -->
+
 ## Вихід (Notion)
 Під-сторінка **«12 · Docs Plan»**: stage relevance · scored inventory (+Readiness %) · gap/actions +
 що покрито флоу · «Джерела / припущення». Українською.

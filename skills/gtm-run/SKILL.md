@@ -79,7 +79,7 @@ value-prop canvas, 4 pricing inputs, 7 GTM-motions, proof-мілстоуни, ex
    statement перед VP/offers). Пропускай/спрощуй кроки за правилами стадії.
 6. **Крок 13** — виклич `gtm-action-plan`. → **GATE 3**: покажи 30-90-180. Чекай фінального підтвердження.
 7. **Фініш.** Онови Status сторінки клієнта = «Plan ready». Дай користувачу: лінк на Notion-сторінку,
-   стадію, SMF-діру, AGA-фокус і топ-3 дії на 30 днів.
+   the stage in words, where money leaks in words (leads, conversion, deal size or repeat business, never L/Cr/$/#), the work focus in plain words (never AGA or M1–M5 codes) and the top-3 actions for 30 days.
 
 ## Definition of Done (флоу)
 
@@ -87,3 +87,26 @@ value-prop canvas, 4 pricing inputs, 7 GTM-motions, proof-мілстоуни, ex
 - Усі релевантні стадії під-сторінки існують; нерелевантні явно позначені «передчасно».
 - 4 чекпоінти (GATE 1 / 2 / 2.5 / 3) пройдені з підтвердженням користувача.
 - Фінальний Action Plan містить 30/90/180 горизонти з owner/effort/KPI і блоком overshoot/undershoot.
+
+## Terms and plain-language output
+
+<!-- glossary:start terms=agency-stage,smf-gap,aga-focus,checkpoint,cold-audit,plan-horizons,hypothesis-confidence -->
+Rules for every document a client or their team will read (review, roast, canvas, offer cards, instruction):
+
+1. **Open with «Словник цього документа»**: only the terms that actually appear in it, at most 10, each as «термін: що це простими словами». Like the definitions section of a contract.
+2. **No internal codes or letter scales in the text** (A/B/C, D L T E, BLEND numbers without words, Own/Shared/Generic, Z1.4, GATE 2.5, T1–T6). Write the meaning instead: «є цифра з клієнтом», not «A».
+3. **Use the plain form from the table below.** English stays only for tool names and for copy that ships in English (promises, hooks, subject lines). If the document is in another language, translate the plain form, never the internal term.
+4. **Do not score what cannot exist yet.** A block that depends on work not done (signal catalog, case studies, a previous step) gets «пропущено: спершу потрібно <що саме>», not a score.
+5. **Every section of a review opens with one concrete action** («до наступного дзвінка: …»), then at most five lines of why. No paragraph that only restates the framework.
+
+
+| Internal term (this skill) | Write for the reader | What it means |
+|---|---|---|
+| Stage 0–5, стадія агенції | стадія розвитку компанії (0–5) | шість щаблів від «CEO робить усе» до «портфель напрямів»; від стадії залежить, що доречно робити зараз. |
+| SMF gap, Sales-Market Fit, L / Cr / $ / # | де губляться гроші: ліди · конверсія · чек · повторні продажі | одне з чотирьох місць, де прибуток протікає; закривати починаємо з найдешевшого. |
+| AGA focus, M1 / M2–M3 / M4 / M5 | напрям робіт: стратегія · LinkedIn і розсилки · продажі · робота з клієнтами | блок робіт, який вмикаємо першим під вашу стадію; кодів модулів у документі не пишемо. |
+| GATE 2.5, checkpoint | точка погодження з вами | місце, де зупиняємося і питаємо «підтверджуєте чи міняємо?»; код у документ не пишемо |
+| cold audit | огляд ззовні за публічними даними | оцінка лише з того, що бачить сторонній: сайт, LinkedIn, відгуки; внутрішніх даних ще немає. |
+| Quick Wins / Foundation / Traction-Scale (0–30 / 31–90 / 91–180) | швидкі кроки · фундамент · масштабування | три відрізки плану на 30, 90 і 180 днів. |
+| propose-by-default, hypothesis · confidence low/med/high | наш варіант з рівнем упевненості | там, де ви ще не назвали відповідь, пропонуємо свою і пишемо, наскільки впевнені і на чому вона базується |
+<!-- glossary:end -->
