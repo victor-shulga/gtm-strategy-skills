@@ -82,7 +82,7 @@ and number-drift rule in `references/rubric.md`.
    hand). Site crawl: menu, service pages, cases, pricing, how-we-work, about, blog. Review
    platforms: count, dates, client sizes and industries. LinkedIn: company page and the two most
    visible people, 12 months of posts. Search: brand and category queries in the main market.
-   AI assistants: 2–4 topics × 3–4 unbranded prompts, note who gets named instead. DNS: MX,
+   AI assistants: at least 4 unbranded prompts across ChatGPT, Claude, Gemini and Perplexity (16 answers), mentions and citations counted separately, note who gets named instead. DNS: MX,
    SPF, DKIM selectors, DMARC policy, separate sending domains.
 2. **Score** every criterion with 2–4 evidence bullets and a one-line verdict, using the tables
    in `references/rubric.md` (ICP, delivery process, case anatomy are mandatory tables).
@@ -121,7 +121,7 @@ blank one.
    01 strategy (its 6 criteria + Value Proposition), 02 team, 06 processes, each group with its
    donut; the legend. On phones the funnel becomes a vertical list.
 4. **Bars of the 6 block scores**, H2 «Оцінки 6 блоків: N з 6 нижче 3».
-5. **Blocks 01–06.** Block 01 opens with «Розклад на складові»: Offer (entry product, price, term,
+5. **Blocks 01–06.** Every block opens with the answer to its one main question: a panel with the question, a short coloured verdict (Так · Частково · Ні or Не доведено · Не видно ззовні) and 1–2 lines of facts. Questions: 01 Стратегія чітка і допомагає лідогенерації? · 02 Чи є кому виконувати план без фаундера? · 03 Звідки ліди? · 04 Продажі системні? · 05 Клієнти лишаються і купують більше? · 06 Компанія бачить, який канал дає гроші? Block 03 continues with the table «Звідки ліди» (10 channels, see the rubric). Block 01 continues with «Розклад на складові»: Offer (entry product, price, term,
    what the buyer holds, risk reversal, next step), Value Proposition (dream outcome, proof, time to
    result, client effort), ICP (3 components 1–5); each row ✓ / ~ / ✕ in green / amber / red, a
    «X з N» count and a segmented bar. Every block: H2 = a fact with a number, criteria in a table
@@ -136,10 +136,12 @@ blank one.
 ## Self-check before delivering
 
 - Every score has evidence; every `?` has a question.
+- Every block answers its main question; block 03 has all 10 lead channels and a direct answer on leads from SEO.
 - H1 names the weakest block; no block H2 is a bare block name; each carries a fact with a number.
 - No tile shows a bare number as its big text.
 - Headline numbers appear at most twice (thesis and its block).
 - Reviews are counted as reviews, not as clients.
+- Case percentages recalculated by hand; quote titles checked against current LinkedIn; every LinkedIn number says whose it is.
 - Trust track: every repeated number (team, years, projects, clients) checked on home, About,
   meta description, LinkedIn and review platform; one drift caps «Чесні й узгоджені цифри» at 2.
 - Trust track never changes the overall GTM score.
