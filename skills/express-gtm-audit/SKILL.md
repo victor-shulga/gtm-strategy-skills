@@ -17,6 +17,21 @@ Two uses:
 
 Language of the document = language of the user. Company, tool and competitor names stay Latin.
 
+## Required tools
+
+Install these before running the skill. It still runs without the ones marked **Required**, but the result gets noticeably worse: most lead-generation and trust criteria turn into «?» because the evidence behind them cannot be collected.
+
+| Tool | Used for | Required? | Without it |
+|---|---|---|---|
+| Firecrawl (MCP) | site crawl: services, cases, pricing, about, blog, review platform pages | Required | you paste pages by hand; cases and number drift get missed |
+| Web search | brand and category queries in the main market, review platforms | Required | search and reviews criteria stay «?» |
+| Apify | LinkedIn company page and 12 months of posts of the two most visible people | Recommended | LinkedIn and content scored from a manual look at a few posts |
+| Ahrefs or Semrush | organic traffic, keywords, top pages and 2 peers for the SEO criterion | Recommended | SEO is judged from search results only; no traffic numbers |
+| ChatGPT, Claude, Gemini, Perplexity | 16 AI-assistant answers for the AI visibility criterion | Recommended | AI visibility stays «?» |
+| `dig` or MXToolbox | MX, SPF, DKIM selectors, DMARC, separate sending domains | Recommended | outreach infrastructure scored without DNS evidence |
+
+Alternatives: SimilarWeb can stand in for Ahrefs or Semrush; Exa (MCP) can stand in for Firecrawl.
+
 ## Hard rules
 
 - **No evidence, no score.** A criterion that cannot be seen from outside gets `?`, is excluded
