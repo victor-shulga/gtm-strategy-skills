@@ -1,7 +1,7 @@
 {
   "name": "gtm-strategy",
-  "version": "0.8.0",
-  "description": "Cold-audit GTM strategy flow for IT agencies: from a website URL to stage diagnosis, ICP, competitor gap, positioning, value prop, offers, buyer journey, materials and channels, and a 30-90-180 action plan, with a standalone 23-criteria GTM audit. Outputs to Notion in Ukrainian. Plus 7 research and planning skills (competitor finder, market urgency, persona insights, GTM idea stress test, revenue forecast, growth planner, sales hiring brief) and 3 planning tools (Anthropic, Apache-2.0).",
+  "version": "0.9.0",
+  "description": "Cold-audit GTM strategy flow for IT agencies: from a website URL to stage diagnosis, ICP, competitor gap, positioning, value prop, offers, buyer journey, materials and channels, and a 30-90-180 action plan, with a standalone 23-criteria GTM audit. Outputs to Notion in Ukrainian. Plus 8 research and planning skills (website scraper, competitor finder, market urgency, persona insights, idea stress test, revenue forecast, growth planner, hiring brief) and 3 planning tools (Anthropic, Apache-2.0).",
   "author": {
     "name": "Viktor Shulha",
     "url": "https://github.com/victor-shulga"
