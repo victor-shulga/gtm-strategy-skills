@@ -64,10 +64,12 @@ would run, even with 30+ cases.
 
 **Main question: «Звідки ліди?»** The block opens with the answer, then a mandatory table «Звідки ліди» (Канал · Що видно · Чи дає ліди), sorted from the likely largest source to the smallest. Walk all 10 channels: conferences · webinars · outreach · partners and referrals · acquisitions · LinkedIn · lead magnets and free tools · AI assistants · ads · Google. A channel with no trace stays with «слідів немає». «Що видно» = facts with numbers and dates; «Чи дає ліди» = a conclusion from the traces, labelled as one, because the real split lives in the company's CRM. Judge Google by visits to commercial pages: split non-brand traffic into blog vs service pages and say directly whether SEO brings leads. Say whose each LinkedIn number is: company page or a person.
 
+**Second question: «Скільки запитів і чи є там гроші?»** After «Звідки ліди» comes a mandatory table «Попит у темах» (Тема · Google, buyer queries a month · AI assistants a month · cost per click · if top 3: clicks · their ad value · leads · Money?), one row per service topic, 3–5 topics. Count only queries with buying intent for the service in the main market; broad research queries go into a note, not into the sum. Cost per click is what advertisers already pay per visit, the market's own proof of money. The top-3 columns are a model (20% of searches click, 2% of visitors write), say so next to the table. End with one line tying search to deal size and name the richest topic as the first move.
+
 | Criterion | What to check | Where |
 |---|---|---|
-| SEO | organic traffic and keywords in the main market; share of traffic from the top page; do service pages get traffic; 2 peers for comparison | any SEO data tool, search results |
-| AI visibility | at least 4 unbranded prompts across 4 assistants (16 answers): mention share, citations, topics with zero, who gets named instead | AI assistants, run by hand or by script |
+| SEO | organic traffic and keywords in the main market; share of traffic from the top page; do service pages get traffic; 2 peers for comparison; buyer demand and cost per click for the company's topics (demand table) | any SEO data tool, search results |
+| AI visibility | mandatory: 4 topics × 4 prompts across 4 assistants (64 answers): unbranded mention share, citations, topics with zero, who gets named instead, what the assistants get wrong about the brand | AI assistants, run by hand or by script |
 | LinkedIn and content | company page + CEO + sales lead: posts in 12 months, median reactions, topics | LinkedIn |
 | Events | conferences, roadshows, webinars in 12 months; speaker or exhibitor roles | site, LinkedIn, event sites |
 | Outreach infrastructure | MX, SPF, DKIM selectors, DMARC policy; separate sending domains that resolve; sender profiles | DNS lookup, LinkedIn |
